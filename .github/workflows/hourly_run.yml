@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pandas requests nselib
+          pip install pandas numpy yfinance beautifulsoup4 scipy nselib requests
 
       - name: Run short strangle script
         run: python "short_strangle.py"

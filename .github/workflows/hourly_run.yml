@@ -2,10 +2,11 @@ name: Short Strangle Hourly Sync
 
 on:
   schedule:
-    # Runs every hour at the 30th minute 
-    # From 02:30 UTC (8:00 AM IST) to 10:30 UTC (4:00 PM IST)
-    # 1-5 specifies Monday through Friday
-    - cron: '30 2-10 * * 1-5'
+    # 30: Runs at the 30th minute
+    # 2-10/2: Runs every 2 hours (02:30, 04:30, 06:30, 08:30, 10:30 UTC)
+    # * * : Every day of every month
+    # 1-5: Monday through Friday
+    - cron: '30 2-10/2 * * 1-5'
   workflow_dispatch: # Allows manual run
 
 jobs:

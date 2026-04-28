@@ -4,10 +4,7 @@ import yfinance as yf
 from bs4 import BeautifulSoup
 from io import StringIO
 from scipy.stats import norm
-try: from nselib import derivatives, capital_market
-except:
-  !pip install nselib
-  from nselib import derivatives, capital_market
+from nselib import derivatives, capital_market
 import requests
 import datetime
 import os

@@ -27,7 +27,7 @@ jobs:
           pip install pandas requests
 
       - name: Run short strangle script
-        run: python "short_strangel.py"
+        run: python "short_strangle.py"
 
       - name: Commit and Push changes
         run: |

@@ -4,21 +4,28 @@ import yfinance as yf
 from bs4 import BeautifulSoup
 from io import StringIO
 from scipy.stats import norm
-from nselib import derivatives, capital_market
+try: from nselib import derivatives, capital_market
+except:
+  !pip install nselib
+  from nselib import derivatives, capital_market
 import requests
 import datetime
 import os
-
+try:
+  from optionlab import run_strategy
+except:
+  !pip install optionlab
+  from optionlab import run_strategy
 
 # ----------------------------
 # CONFIG
 # ----------------------------
 EXPIRY = '26-05-2026'
 DAYS_TO_EXPIRY = (pd.to_datetime(EXPIRY, format='%d-%m-%Y') - pd.Timestamp.today()).days
-MARGIN = 95000
-MIN_RETURN_PCT = 3.5
 
-
+# ----------------------------
+# MARKETSCREENER SCRAPER to get events and news
+# ----------------------------
 class MarketScreenerScraper:
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -29,6 +36,107 @@ class MarketScreenerScraper:
         "Connection": "keep-alive",
         "Upgrade-Insecure-Requests": "1"
     }
+
+    slugs = {
+        "AXISBANK" : "/quote/stock/AXIS-BANK-LIMITED-17067783/",
+        "ADANIENT" : "/quote/stock/ADANI-ENTERPRISES-LIMITED-9059510/",
+        "ADANIPORTS" : "/quote/stock/ADANI-PORTS-SPECIAL-ECONO-9059803/",
+        "APOLLOHOSP" : "/quote/stock/APOLLO-HOSPITALS-ENTERPRI-9058923/",
+        "ASIANPAINT" : "/quote/stock/ASIAN-PAINTS-LIMITED-13891348/",
+        "BAJAJ-AUTO" : "/quote/stock/BAJAJ-AUTO-LIMITED-9059975/",
+        "BAJFINANCE" : "/quote/stock/BAJAJ-FINANCE-LIMITED-190468329/",
+        "BAJAJFINSV" : "/quote/stock/BAJAJ-FINSERV-LTD-9059974/",
+        "CIPLA" : "/quote/stock/CIPLA-LIMITED-9058821/",
+        "COALINDIA" : "/quote/stock/COAL-INDIA-LIMITED-9060008/",
+        "ETERNAL" : "/quote/stock/ETERNAL-LIMITED-125138034/",
+        "GRASIM" : "/quote/stock/GRASIM-INDUSTRIES-LIMITED-33647063/",
+        "HCLTECH" : "/quote/stock/HCL-TECHNOLOGIES-LIMITED-9058931/",
+        "HDFCBANK" : "/quote/stock/HDFC-BANK-LIMITED-105516154/",
+        "HDFCLIFE" : "/quote/stock/HDFC-LIFE-INSURANCE-COMPA-105516321/",
+        "HINDUNILVR" : "/quote/stock/HINDUSTAN-UNILEVER-LIMITE-9058826/",
+        "ICICIBANK" : "/quote/stock/ICICI-BANK-LIMITED-23672738/",
+        "ITC" : "/quote/stock/ITC-LIMITED-9743470/",
+        "INFY" : "/quote/stock/INFOSYS-LIMITED-9743342/",
+        "INDIGO" : "/quote/stock/INTERGLOBE-AVIATION-LIMIT-25531239/",
+        "JIOFIN" : "/quote/stock/JIO-FINANCIAL-SERVICES-LI-157409091/",
+        "M&M" : "/quote/stock/MAHINDRA-MAHINDRA-LIMITED-9058830/",
+        "MARUTI" : "/quote/stock/MARUTI-SUZUKI-INDIA-LTD-9059169/",
+        "NTPC" : "/quote/stock/NTPC-LTD-9743456/",
+        "ONGC" : "/quote/stock/OIL-AND-NATURAL-GAS-CORPO-9743117/",
+        "POWERGRID" : "/quote/stock/POWER-GRID-CORPORATION-OF-9059859/",
+        "RELIANCE" : "/quote/stock/RELIANCE-INDUSTRIES-LTD-9058833/",
+        "SBILIFE" : "/quote/stock/SBI-LIFE-INSURANCE-COMPAN-105516292/",
+        "SBIN" : "/quote/stock/STATE-BANK-OF-INDIA-18603402/",
+        "SUNPHARMA" : "/quote/stock/SUN-PHARMACEUTICAL-INDUST-9058928/",
+        "TCS" : "/quote/stock/TATA-CONSULTANCY-SERVICES-9743454/",
+        "TATACONSUM" : "/quote/stock/TATA-CONSUMER-PRODUCTS-LI-9058838/",
+        "TECHM" : "/quote/stock/TECH-MAHINDRA-LIMITED-33647041/",
+        "ULTRACEMCO" : "/quote/stock/ULTRATECH-CEMENT-LIMITED-9059270/",
+        "ADANIENSOL" : "/quote/stock/ADANI-ENERGY-SOLUTIONS-LI-23437234/",
+        "ADANIGREEN" : "/quote/stock/ADANI-GREEN-ENERGY-LIMITE-46901469/",
+        "ADANIPOWER" : "/quote/stock/ADANI-POWER-LIMITED-9059969/",
+        "DMART" : "/quote/stock/AVENUE-SUPERMARTS-LIMITED-34491272/",
+        "BANKBARODA" : "/quote/stock/BANK-OF-BARODA-23320361/",
+        "BPCL" : "/quote/stock/BHARAT-PETROLEUM-CORPORAT-9743071/",
+        "BRITANNIA" : "/quote/stock/BRITANNIA-INDUSTRIES-LIMI-105516157/",
+        "CGPOWER" : "/quote/stock/CG-POWER-AND-INDUSTRIAL-S-9058926/",
+        "CANBK" : "/quote/stock/CANARA-BANK-9059113/",
+        "DLF" : "/quote/stock/DLF-LIMITED-9743639/",
+        "DIVISLAB" : "/quote/stock/DIVI-S-LABORATORIES-LIMIT-9059190/",
+        "GAIL" : "/quote/stock/GAIL-INDIA-LIMITED-9743098/",
+        "GODREJCP" : "/quote/stock/GODREJ-CONSUMER-PRODUCTS--9059191/",
+        "HDFCAMC" : "/quote/stock/HDFC-ASSET-MANAGEMENT-COM-45228895/",
+        "HAL" : "/quote/stock/HINDUSTAN-AERONAUTICS-LIM-47006646/",
+        "HYUNDAI" : "/quote/stock/HYUNDAI-MOTOR-INDIA-LIMIT-176859164/",
+        "IOC" : "/quote/stock/INDIAN-OIL-CORPORATION-LI-9743425/",
+        "IRFC" : "/quote/stock/INDIAN-RAILWAY-FINANCE-CO-119082036/",
+        "JINDALSTEL" : "/quote/stock/JINDAL-STEEL-POWER-LIMITE-9059230/",
+        "LTM" : "/quote/stock/LTIMINDTREE-LIMITED-31496899/",
+        "LODHA" : "/quote/stock/LODHA-DEVELOPERS-LIMITED-121553374/",
+        "MAZDOCK" : "/quote/stock/MAZAGON-DOCK-SHIPBUILDERS-113582671/",
+        "MUTHOOTFIN" : "/quote/stock/MUTHOOT-FINANCE-LIMITED-9743895/",
+        "PIDILITIND" : "/quote/stock/PIDILITE-INDUSTRIES-LIMIT-9058912/",
+        "PFC" : "/quote/stock/POWER-FINANCE-CORPORATION-9059675/",
+        "PNB" : "/quote/stock/PUNJAB-NATIONAL-BANK-19165555/",
+        "RECLTD" : "/quote/stock/REC-LIMITED-9059899/",
+        "SHREECEM" : "/quote/stock/SHREE-CEMENT-LIMITED-9059180/",
+        "SIEMENS" : "/quote/stock/SIEMENS-LIMITED-9058964/",
+        "SOLARINDS" : "/quote/stock/SOLAR-INDUSTRIES-INDIA-LI-29752167/",
+        "UNIONBANK" : "/quote/stock/UNION-BANK-OF-INDIA-9058857/",
+        "UNITDSPR" : "/quote/stock/UNITED-SPIRITS-LIMITED-45456076/",
+        "VBL" : "/quote/stock/VARUN-BEVERAGES-LIMITED-34067670/",
+        "VEDL" : "/quote/stock/VEDANTA-LIMITED-37569657/",
+        "ZYDUSLIFE" : "/quote/stock/ZYDUS-LIFESCIENCES-LIMITE-34067618/",
+        "DRREDDY" : "/quote/stock/DR-REDDY-S-LABORATORIES-L-9058869/",
+        "TMPV" : "/quote/stock/TATA-MOTORS-LIMITED-9058835/",
+        "TATASTEEL" : "/quote/stock/TATA-STEEL-LIMITED-6491942/",
+        "TITAN" : "/quote/stock/TITAN-COMPANY-LIMITED-9059025/",
+        "TRENT" : "/quote/stock/TRENT-LIMITED-31311737/",
+        "WIPRO" : "/quote/stock/WIPRO-LIMITED-9059079/",
+        "ABB" : "/quote/stock/ABB-LTD-9365000/",
+        "AMBUJACEM" : "/quote/stock/AMBUJA-CEMENTS-6491917/",
+        "BAJAJHLDNG" : "/quote/stock/BAJAJ-HOLDINGS-INVESTMENT-9058815/",
+        "BOSCHLTD" : "/quote/stock/BOSCH-LIMITED-9058976/",
+        "CHOLAFIN" : "/quote/stock/CHOLAMANDALAM-INVESTMENT--6498532/",
+        "CUMMINSIND" : "/quote/stock/CUMMINS-INDIA-LIMITED-6493116/",
+        "HINDZINC" : "/quote/stock/HINDUSTAN-ZINC-LIMITED-9058942/",
+        "INDHOTEL" : "/quote/stock/THE-INDIAN-HOTELS-COMPANY-9058952/",
+        "MOTHERSON" : "/quote/stock/SAMVARDHANA-MOTHERSON-INT-9059209/",
+        "TVSMOTOR" : "/quote/stock/TVS-MOTOR-COMPANY-LIMITED-9059148/",
+        "TATAPOWER" : "/quote/stock/TATA-POWER-COMPANY-LIMITE-9062790/",
+        "TORNTPHARM" : "/quote/stock/TORRENT-PHARMACEUTICALS-L-9058968/",
+        "BEL" : "/quote/stock/BHARAT-ELECTRONICS-LIMITE-34491260/",
+        "BHARTIARTL" : "/quote/stock/BHARTI-AIRTEL-LIMITED-9059084/",
+        "EICHERMOT" : "/quote/stock/EICHER-MOTORS-LIMITED-9058962/",
+        "HINDALCO" : "/quote/stock/HINDALCO-INDUSTRIES-LIMIT-6493281/",
+        "JSWSTEEL" : "/quote/stock/JSW-STEEL-LIMITED-33647024/",
+        "KOTAKBANK" : "/quote/stock/KOTAK-MAHINDRA-BANK-LIMIT-46728631/",
+        "LT" : "/quote/stock/LARSEN-TOUBRO-LIMITED-9058829/",
+        "MAXHEALTH" : "/quote/stock/MAX-HEALTHCARE-INSTITUTE--111315625/",
+        "NESTLEIND" : "/quote/stock/NESTLE-INDIA-LIMITED-9058921/",
+        "SHRIRAMFIN" : "/quote/stock/DR-REDDY-S-LABORATORIES-L-9058869/"
+    }
+
     def __init__(self, nse_code):
         self.nse_code = nse_code
         self.base_url = 'https://in.marketscreener.com'
@@ -46,7 +154,8 @@ class MarketScreenerScraper:
       return data
 
     def search_slug(self):
-
+            if self.nse_code in self.slugs:
+                return self.slugs[self.nse_code]
         # 1. Get the landing page to establish a session and grab the CSRF token
             res = self.session.get(self.base_url)
             res.raise_for_status()
@@ -84,8 +193,11 @@ class MarketScreenerScraper:
                 company_name = cells[1].text.strip()
                 symbol = cells[2].text.strip()
                 if 'inr' in company_name.lower() and self.nse_code.lower() == symbol.lower():
-                  return row.get('data-href')
+                  self.slugs[self.nse_code] = row.get('data-href')
+                  return self.slugs[self.nse_code]
 
+            print(f"ERROR ! SLUG NOT FOUND FOR {self.nse_code}")
+            return self.slugs['AXISBANK']
 
     def get_event_calendar(self):
         if not self.slug:
@@ -139,10 +251,6 @@ class MarketScreenerScraper:
           return ' || '.join(df['Desc'].to_list())
 
         return {'news' : _get_events('news', 'newsScreener')}
-
-# Execution
-# scraper = MarketScreenerScraper('HDFCLIFE')
-# scraper.get_event_calendar_and_news()
 
 
 # ----------------------------
@@ -216,19 +324,10 @@ def get_lot_size(symbol):
 
 
 # ----------------------------
-# BLACK-76 POP
-# ----------------------------
-def prob_F_less_than_K(K, F, sigma, T):
-    if sigma == 0:
-        return 0
-    z = (np.log(K / F) + 0.5 * sigma**2 * T) / (sigma * np.sqrt(T))
-    return norm.cdf(z)
-
-
-# ----------------------------
 # BOUNDS + META
 # ----------------------------
 def get_bounds_and_info(symbol, company_name, industry):
+    # try:
     if True:
         stock = symbol + '.NS'
 
@@ -270,13 +369,82 @@ def get_bounds_and_info(symbol, company_name, industry):
         print(f"Bounds error {symbol}: {e}")
         return None, None, None, company_name, industry
 
+# ----------------------------
+# POP Calculator
+# ----------------------------
+def get_pop(stock_price, option_type, strike_price, premium, lot_size, volatility, start_date, target_date, action='sell', interest_rate=0):
+  # print(stock_price, option_type, strike_price, premium, lot_size, volatility, start_date, target_date)
+  # print(max(1, stock_price-10000), min(100000, stock_price+100000))
+  return run_strategy(
+      {
+          "stock_price": stock_price,
+          "start_date": start_date,
+          "target_date": target_date,
+          "volatility": volatility,
+          "interest_rate": interest_rate,
+          "strategy": [{
+                "type": 'call' if option_type == 'CE' else 'put',
+                "strike": strike_price,
+                "premium": premium,
+                "n": lot_size,
+                "action": action,
+            }],
+          "min_stock": max(1, stock_price-10000),
+          "max_stock": min(100000, stock_price+100000)
+      }
+  ).probability_of_profit
+
+# ----------------------------
+# MARGIN CALCULATION
+# ----------------------------
+def get_margin_req(symbol, strike_price, expiry_date, option_type, lot_size):
+    expiry_date = datetime.datetime.strptime(expiry_date, "%d-%m-%Y").strftime("%d%b").upper()
+    option_type = option_type.upper()
+    post_url = "https://zerodha.com/margin-calculator/SPAN"
+
+    import math
+    if math.ceil(strike_price) == math.floor(strike_price):
+        strike_price = str(int(strike_price))
+    else:
+      strike_price = str(strike_price)
+      
+
+    payload = {
+        "action": "calculate",
+        "exchange[]": "NFO",
+        "product[]": "OPT",
+        "scrip[]": f"{symbol}{expiry_date}",
+        "option_type[]": option_type,
+        "strike_price[]": str(strike_price),
+        "qty[]": str(lot_size),
+        "trade[]": "sell"
+    }
+    # print(payload)
+    response = requests.post(post_url, data=payload)
+    # print(response.json())
+    return max(response.json().get('last', {}).get('total', -1), response.json().get('total', {}).get('total', -1))
+
+
+# ----------------------------
+# FILTERING FUNCTION
+# ----------------------------
+def filter(df):
+  filter = (df['Sell Put @'] < df['Lower Bound']) & \
+       (df['Upper Bound'] < df['Sell Call @']) & \
+       ((df['POP (%)'] > 90) | (df['POP (%)'] < 10)) & \
+       (df['Upcoming Events'] == 'No upcoming events found.') & \
+       ((df['Days to Result'] > 30) | (df['Days to Result'] is pd.NA) | (df['Days to Result'] is None) | (df['Days to Result'].isna()) | (df['Days to Result'] == '') | (df['Days to Result']<0))
+
+  df = df[filter]
+  return df.copy()
+
 
 # ----------------------------
 # MAIN FUNCTION
 # ----------------------------
 def generate_short_strangle_csv():
 
-    # 🔥 Fetch result calendar once
+    # Fetch result calendar once
     result_calendar = build_results_calendar_map()
 
     stock_universe = pd.concat([
@@ -289,25 +457,52 @@ def generate_short_strangle_csv():
 
     results = []
 
+    start = False
+
     for idx, row in stock_universe.iterrows():
 
         SYMBOL = row['Symbol']
+
+        # if SYMBOL == 'PNB':
+        #   start = True
+        #   continue
+        # if start == False and SYMBOL != 'PNB':
+        #   continue
+        # if SYMBOL != 'JIOFIN' : continue
+
         company_name = row['Company Name']
         industry = row['Industry']
 
+        nifty_50_symbols = [
+            'ADANIENT','ADANIPORTS','APOLLOHOSP','ASIANPAINT','AXISBANK','BAJAJ-AUTO','BAJFINANCE','BAJAJFINSV','BEL','BHARTIARTL','CIPLA','COALINDIA','DRREDDY','EICHERMOT','ETERNAL','GRASIM','HCLTECH','HDFCBANK','HDFCLIFE','HINDALCO','HINDUNILVR','ICICIBANK','ITC','INFY','INDIGO','JSWSTEEL','JIOFIN','KOTAKBANK','LT','M&M','MARUTI','MAXHEALTH','NTPC','NESTLEIND','ONGC','POWERGRID','RELIANCE','SBILIFE','SHRIRAMFIN','SBIN','SUNPHARMA','TCS','TATACONSUM','TMPV','TATASTEEL','TECHM','TITAN','TRENT','ULTRACEMCO','WIPRO'
+        ]
+
+        nifty_next_50_symbols = [
+            'ABB', 'ADANIENSOL', 'ADANIGREEN', 'ADANIPOWER', 'AMBUJACEM', 'DMART', 'BAJAJHLDNG', 'BANKBARODA', 'BPCL', 'BOSCHLTD', 'BRITANNIA', 'CGPOWER', 'CANBK', 'CHOLAFIN', 'CUMMINSIND', 'DLF', 'DIVISLAB', 'DUMMYVEDL1', 'DUMMYVEDL2', 'DUMMYVEDL3', 'DUMMYVEDL4', 'GAIL', 'GODREJCP', 'HDFCAMC', 'HAL', 'HINDZINC', 'HYUNDAI', 'INDHOTEL', 'IOC', 'IRFC', 'JINDALSTEL', 'LTM', 'LODHA', 'MAZDOCK', 'MUTHOOTFIN', 'PIDILITIND', 'PFC', 'PNB', 'RECLTD', 'MOTHERSON', 'SHREECEM', 'ENRIN', 'SIEMENS', 'SOLARINDS', 'TVSMOTOR', 'TATACAP', 'TMCV', 'TATAPOWER', 'TORNTPHARM', 'UNIONBANK', 'UNITDSPR', 'VBL', 'VEDL', 'ZYDUSLIFE'
+        ]
+
+        if SYMBOL not in nifty_50_symbols and SYMBOL not in nifty_next_50_symbols:
+            print(f"Skipping {SYMBOL} as it's not in Nifty 50 or Next 50")
+            continue
+
         # try:
         if True:
+
             print(f"Processing {SYMBOL}...")
 
+            print(f"\tStep 1: Get Futures Price")
             FUTURES_PRICE = yf.Ticker(SYMBOL + '.NS').info.get('regularMarketPrice')
             if FUTURES_PRICE is None:
                 continue
 
+            print(f"\tStep 2: Get Lot size")
             LOT_SIZE = get_lot_size(SYMBOL)
             if LOT_SIZE is None:
                 continue
 
+            print(f"\tStep 3: Get Live Option Chain Data")
             df = derivatives.nse_live_option_chain(symbol=SYMBOL, expiry_date=EXPIRY)
+
 
             df['CALLS_IV'] = df['CALLS_IV'] / 100
             df['PUTS_IV'] = df['PUTS_IV'] / 100
@@ -319,77 +514,15 @@ def generate_short_strangle_csv():
 
             T = DAYS_TO_EXPIRY / 365
 
-            candidates = []
+            START_DATE = datetime.date.today().isoformat()
+            TARGET_DATE = "-".join(EXPIRY.split("-")[::-1])
 
-            for _, call_row in df.iterrows():
-                for _, put_row in df.iterrows():
-
-                    Kc = call_row['Strike_Price']
-                    Kp = put_row['Strike_Price']
-
-                    if Kp >= FUTURES_PRICE or Kc <= FUTURES_PRICE:
-                        continue
-
-                    call_premium = call_row['CALLS_LTP']
-                    put_premium  = put_row['PUTS_LTP']
-
-                    if call_premium == 0 or put_premium == 0:
-                        continue
-
-                    total_premium = call_premium + put_premium
-
-                    max_profit_abs = total_premium * LOT_SIZE
-                    max_profit_pct = (max_profit_abs / MARGIN) * 100
-
-                    if max_profit_pct < MIN_RETURN_PCT:
-                        continue
-
-                    sigma_call = call_row['CALLS_IV']
-                    sigma_put  = put_row['PUTS_IV']
-
-                    avg_sigma = (sigma_call + sigma_put) / 2
-                    std_move = FUTURES_PRICE * avg_sigma * np.sqrt(T)
-
-                    if std_move == 0:
-                        continue
-
-                    call_std = (Kc - FUTURES_PRICE) / std_move
-                    put_std  = (FUTURES_PRICE - Kp) / std_move
-
-                    std_multiple = min(call_std, put_std)
-
-                    prob_below_call = prob_F_less_than_K(Kc, FUTURES_PRICE, sigma_call, T)
-                    prob_below_put  = prob_F_less_than_K(Kp, FUTURES_PRICE, sigma_put, T)
-
-                    POP = (prob_below_call - prob_below_put) * 100
-
-                    lower_be = Kp - total_premium
-                    upper_be = Kc + total_premium
-
-                    candidates.append({
-                        "Kc": Kc,
-                        "Kp": Kp,
-                        "call_premium": call_premium,
-                        "put_premium": put_premium,
-                        "total_premium": total_premium,
-                        "max_profit_abs": max_profit_abs,
-                        "max_profit_pct": max_profit_pct,
-                        "POP": POP,
-                        "std_multiple": std_multiple,
-                        "lower_be": lower_be,
-                        "upper_be": upper_be
-                    })
-
-            if len(candidates) == 0:
-                continue
-
-            best = sorted(candidates, key=lambda x: x['std_multiple'], reverse=True)[0]
-
+            print(f"\tStep 4: Get current price, lb, up, company name, industry name")
             lb, current_price, ub, cname, ind = get_bounds_and_info(
                 SYMBOL, company_name, industry
             )
 
-            # 🔥 Result date + days calculation
+            # Result date + days calculation
             result_date = result_calendar.get(SYMBOL, None)
 
             days_to_result = (
@@ -397,52 +530,148 @@ def generate_short_strangle_csv():
                 if result_date else None
             )
 
+            print(f"\tStep 5: Get Event Calendar and Stock News")
             scraper = MarketScreenerScraper(SYMBOL)
             event_calendar_and_news = scraper.get_event_calendar_and_news()
 
-            results.append({
-                "Symbol": SYMBOL,
-                "Company Name": cname,
-                "Industry": ind,
-                "Current Price": current_price,
-                "Lower Bound": lb,
-                "Upper Bound": ub,
-                "Result Date": result_date,
-                "Days to Result": days_to_result,
-                "Sell Put @": best['Kp'],
-                "Sell Put Premium": best['put_premium'],
-                "Sell Call @": best['Kc'],
-                "Sell Call Premium": best['call_premium'],
-                "Max Profit (₹)": round(best['max_profit_abs'], 2),
-                "Max Profit (%)": round(best['max_profit_pct'], 2),
-                "POP (%)": round(best['POP'], 2),
-                "Std Multiple": round(best['std_multiple'], 2),
-                "Break Even Lower": round(best['lower_be'], 2),
-                "Break Even Upper": round(best['upper_be'], 2),
-                "Upcoming Events": event_calendar_and_news['upcoming-events'],
-                "Past Events": event_calendar_and_news['past-events'],
-                "News": event_calendar_and_news['news']
-            })
+
+            print(f"\tStep 6: Compute the margin, pop")
+            for _, row in df.iterrows():
+
+                skip_call = False
+                skip_put = False
+
+                strike_price = row['Strike_Price']
+
+                print(f"\t\tStep 6.0: Get Info for {strike_price}")
+
+                if FUTURES_PRICE * 0.90 < strike_price and strike_price < FUTURES_PRICE * 1.10:
+                  continue
+
+                call_premium = (row['CALLS_Ask_Price'] - row['CALLS_Bid_Price']) * 0.75 + row['CALLS_Ask_Price']
+                put_premium  = (row['PUTS_Ask_Price'] - row['PUTS_Bid_Price']) * 0.75 + row['PUTS_Ask_Price']
+
+                if call_premium <= 0:
+                  skip_call = True
+                if put_premium <= 0:
+                  skip_put = True
+
+                sigma_call = row['CALLS_IV']
+                sigma_put  = row['PUTS_IV']
+
+                if sigma_call == 0 :
+                  skip_call = True
+                if sigma_put == 0 :
+                  skip_put = True
+
+                print(f"\t\tStep 6.1: Get Call POP")
+                if not skip_call:
+                  call_POP = get_pop(FUTURES_PRICE, 'CE', strike_price, call_premium, LOT_SIZE, sigma_call, START_DATE, TARGET_DATE) * 100
+                  if call_POP < 90:
+                    skip_call = True
+                print(f"\t\tStep 6.2: Get Put POP")
+                if not skip_put:
+                  put_POP  = get_pop(FUTURES_PRICE, 'PE', strike_price, put_premium,  LOT_SIZE, sigma_put, START_DATE, TARGET_DATE) * 100
+                  if put_POP < 90:
+                    skip_put = True
+
+                print(f"\t\tStep 6.3: Get Call Margin")
+                try:
+                  if not skip_call:
+                    call_margin = get_margin_req(SYMBOL, strike_price, EXPIRY, 'CE', LOT_SIZE)
+                except:
+                  # print(f'Symbol {SYMBOL} | Call Margin not available, skipping the symbol')
+                  skip_call = True
+
+                print(f"\t\tStep 6.4: Get Put Margin")
+                try:
+                  if not skip_put:
+                    put_margin  = get_margin_req(SYMBOL, strike_price, EXPIRY, 'PE', LOT_SIZE)
+                except:
+                  # print(f'Symbol {SYMBOL} | Put Margin not available, skipping the symbol')
+                  skip_put = True
+
+
+                if not skip_call: call_profit = call_premium * LOT_SIZE
+                if not skip_put: put_profit  = put_premium * LOT_SIZE
+
+                if not skip_call: call_profit_pct = call_profit / call_margin * 100
+                if not skip_put: put_profit_pct  = put_profit / put_margin * 100
+
+
+                # if not skip_put : 
+                #   print(f"{SYMBOL=} {strike_price=} {FUTURES_PRICE=} {put_POP=}")
+
+                if (not skip_put) and (strike_price < FUTURES_PRICE) and (put_POP >= 90):
+                  # print(f"{SYMBOL} {strike_price=} {put_POP}")
+                  results.append({
+                      "Symbol": SYMBOL,
+                      "Company Name": cname,
+                      "Industry": ind,
+                      "Current Price": current_price,
+                      "Bound": lb,
+                      "Result Date": result_date,
+                      "Days to Result": days_to_result,
+                      "Trade Type": "PE",
+                      "Sell @": strike_price,
+                      "Sell Premium": round(put_premium, 2),
+                      "Max Profit (₹)": int(put_profit),
+                      "Max Profit (%)": round(put_profit_pct, 2),
+                      "POP (%)": round(put_POP, 2),
+                      "Upcoming Events": event_calendar_and_news['upcoming-events'],
+                      "Past Events": event_calendar_and_news['past-events'],
+                      "News": event_calendar_and_news['news']
+                  })
+                
+                # if not skip_call: 
+                #   print(f"{SYMBOL=} {strike_price=} {FUTURES_PRICE=} {call_POP=}")
+
+                if (not skip_call) and (strike_price > FUTURES_PRICE) and (call_POP >= 90):
+                  # print(f"{SYMBOL} {strike_price=} {call_POP}")
+                  results.append({
+                      "Symbol": SYMBOL,
+                      "Company Name": cname,
+                      "Industry": ind,
+                      "Current Price": current_price,
+                      "Bound": ub,
+                      "Result Date": result_date,
+                      "Days to Result": days_to_result,
+                      "Trade Type": "CE",
+                      "Sell @": strike_price,
+                      "Sell Premium": round(call_premium, 2),
+                      "Max Profit (₹)": int(call_profit),
+                      "Max Profit (%)": round(call_profit_pct, 2),
+                      "POP (%)": round(call_POP, 2),
+                      "Upcoming Events": event_calendar_and_news['upcoming-events'],
+                      "Past Events": event_calendar_and_news['past-events'],
+                      "News": event_calendar_and_news['news']
+                  })
 
         # except Exception as e:
         else:
             print(f"Skipping {SYMBOL}: {e}")
             continue
 
+    # print(results)
     result_df = pd.DataFrame(results)
+    # print(result_df)
+    
+    
+    result_df = result_df.sort_values(by="Max Profit (₹)", ascending=False)
 
-    result_df = result_df.sort_values(by="Std Multiple", ascending=False)
+    # result_df = filter(result_df)
 
     # result_df.to_csv("short_strangle_pro.csv", index=False)
     # result_df save to short_strangle_pro_<date_time in yyyy-mm-dd-hh-mm format>
     os.makedirs(os.path.join('data'), exist_ok=True)
     result_df.to_csv(os.path.join('data', f"short_strangle_pro_{datetime.datetime.now().strftime('%Y-%m-%d-%H-%M')}.csv"), index=False)
 
-    print("\n✅ CSV Generated: short_strangle_pro.csv")
+    print("\nCSV Generated: short_strangle_pro.csv")
     print(result_df.head())
 
+    return result_df
 
 # ----------------------------
 # RUN
 # ----------------------------
-generate_short_strangle_csv()
+res_df = generate_short_strangle_csv()

@@ -26,7 +26,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pandas numpy yfinance beautifulsoup4 scipy nselib requests pandas_market_calendars lxml
+          pip install pandas numpy yfinance beautifulsoup4 scipy nselib requests pandas_market_calendars lxml optionlab
 
       - name: Run short strangle script
         run: python "short_strangle.py"

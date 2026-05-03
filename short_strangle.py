@@ -453,7 +453,7 @@ def generate_short_strangle_csv():
     ])
 
     # randomly select 10 rows
-    # stock_universe = stock_universe.sample(n=2)
+    stock_universe = stock_universe.sample(n=5)
 
     results = []
 
@@ -618,6 +618,7 @@ def generate_short_strangle_csv():
                       "Max Profit (₹)": int(put_profit),
                       "Max Profit (%)": round(put_profit_pct, 2),
                       "POP (%)": round(put_POP, 2),
+                      "Margin": put_margin,
                       "Upcoming Events": event_calendar_and_news['upcoming-events'],
                       "Past Events": event_calendar_and_news['past-events'],
                       "News": event_calendar_and_news['news']
@@ -642,6 +643,7 @@ def generate_short_strangle_csv():
                       "Max Profit (₹)": int(call_profit),
                       "Max Profit (%)": round(call_profit_pct, 2),
                       "POP (%)": round(call_POP, 2),
+                      "Margin": call_margin,
                       "Upcoming Events": event_calendar_and_news['upcoming-events'],
                       "Past Events": event_calendar_and_news['past-events'],
                       "News": event_calendar_and_news['news']

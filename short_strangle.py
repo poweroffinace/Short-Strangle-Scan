@@ -523,6 +523,14 @@ def generate_short_strangle_csv():
                 if result_date else None
             )
 
+            try:
+              days_to_result_int = int(days_to_result)
+              if days_to_result_int > 0 and days_to_result < 30: 
+                continue
+            except:
+              # print(f"Skipping {SYMBOL}")
+              dummy = 'day_to_result present'
+
             print(f"\tStep 5: Get Event Calendar and Stock News")
             scraper = MarketScreenerScraper(SYMBOL)
             event_calendar_and_news = scraper.get_event_calendar_and_news()

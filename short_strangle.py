@@ -446,7 +446,7 @@ def generate_short_strangle_csv():
     ])
 
     # randomly select 10 rows
-    # stock_universe = stock_universe.sample(n=5)
+    stock_universe = stock_universe.sample(n=5)
 
     results = []
 

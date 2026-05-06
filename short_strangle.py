@@ -8,6 +8,7 @@ from nselib import derivatives, capital_market
 import requests
 import datetime
 import os
+import time  # Added for retry delays
 from optionlab import run_strategy
 
 # ----------------------------
@@ -445,24 +446,11 @@ def generate_short_strangle_csv():
         capital_market.niftynext50_equity_list()
     ])
 
-    # randomly select 10 rows
-    # stock_universe = stock_universe.sample(n=5)
-
     results = []
-
-    start = False
 
     for idx, row in stock_universe.iterrows():
 
         SYMBOL = row['Symbol']
-
-        # if SYMBOL == 'PNB':
-        #   start = True
-        #   continue
-        # if start == False and SYMBOL != 'PNB':
-        #   continue
-        # if SYMBOL != 'JIOFIN' : continue
-
         company_name = row['Company Name']
         industry = row['Industry']
 
@@ -471,16 +459,13 @@ def generate_short_strangle_csv():
         ]
 
         nifty_next_50_symbols = [
-            'ABB', 'ADANIENSOL', 'ADANIGREEN', 'ADANIPOWER', 'AMBUJACEM', 'DMART', 'BAJAJHLDNG', 'BANKBARODA', 'BPCL', 'BOSCHLTD', 'BRITANNIA', 'CGPOWER', 'CANBK', 'CHOLAFIN', 'CUMMINSIND', 'DLF', 'DIVISLAB', 'DUMMYVEDL1', 'DUMMYVEDL2', 'DUMMYVEDL3', 'DUMMYVEDL4', 'GAIL', 'GODREJCP', 'HDFCAMC', 'HAL', 'HINDZINC', 'HYUNDAI', 'INDHOTEL', 'IOC', 'IRFC', 'JINDALSTEL', 'LTM', 'LODHA', 'MAZDOCK', 'MUTHOOTFIN', 'PIDILITIND', 'PFC', 'PNB', 'RECLTD', 'MOTHERSON', 'SHREECEM', 'ENRIN', 'SIEMENS', 'SOLARINDS', 'TVSMOTOR', 'TATACAP', 'TMCV', 'TATAPOWER', 'TORNTPHARM', 'UNIONBANK', 'UNITDSPR', 'VBL', 'VEDL', 'ZYDUSLIFE'
+            'ABB', 'ADANIENSOL', 'ADANIGREEN', 'ADANIPOWER', 'AMBUJACEM', 'DMART', 'BAJAJHLDNG', 'BANKBARODA', 'BPCL', 'BOSCHLTD', 'BRITANNIA', 'CGPOWER', 'CANBK', 'CHOLAFIN', 'CUMMINSIND', 'DLF', 'DIVISLAB', 'GAIL', 'GODREJCP', 'HDFCAMC', 'HAL', 'HINDZINC', 'HYUNDAI', 'INDHOTEL', 'IOC', 'IRFC', 'JINDALSTEL', 'LTM', 'LODHA', 'MAZDOCK', 'MUTHOOTFIN', 'PIDILITIND', 'PFC', 'PNB', 'RECLTD', 'MOTHERSON', 'SHREECEM', 'SIEMENS', 'SOLARINDS', 'TVSMOTOR', 'TATAPOWER', 'TORNTPHARM', 'UNIONBANK', 'UNITDSPR', 'VBL', 'VEDL', 'ZYDUSLIFE'
         ]
 
         if SYMBOL not in nifty_50_symbols and SYMBOL not in nifty_next_50_symbols:
-            print(f"Skipping {SYMBOL} as it's not in Nifty 50 or Next 50")
             continue
 
-        # try:
         if True:
-
             print(f"Processing {SYMBOL}...")
 
             print(f"\tStep 1: Get Futures Price")
@@ -493,9 +478,26 @@ def generate_short_strangle_csv():
             if LOT_SIZE is None:
                 continue
 
-            print(f"\tStep 3: Get Live Option Chain Data")
-            df = derivatives.nse_live_option_chain(symbol=SYMBOL, expiry_date=EXPIRY)
-
+            print(f"\tStep 3: Get Live Option Chain Data (with Retries)")
+            
+            # --- RETRY LOGIC FOR NSE LIVE OPTION CHAIN ---
+            df = None
+            max_retries = 5
+            for attempt in range(max_retries):
+                try:
+                    df = derivatives.nse_live_option_chain(symbol=SYMBOL, expiry_date=EXPIRY)
+                    if df is not None and not df.empty:
+                        break # Success!
+                except Exception as e:
+                    print(f"\t\tAttempt {attempt + 1} failed for {SYMBOL}: {e}")
+                    if attempt < max_retries - 1:
+                        time.sleep(2) # Wait 2 seconds before retrying
+                    else:
+                        print(f"\t\tFailed to fetch option chain for {SYMBOL} after {max_retries} attempts.")
+            
+            if df is None or df.empty:
+                continue
+            # ---------------------------------------------
 
             df['CALLS_IV'] = df['CALLS_IV'] / 100
             df['PUTS_IV'] = df['PUTS_IV'] / 100
@@ -505,19 +507,15 @@ def generate_short_strangle_csv():
             if len(df) == 0:
                 continue
 
-            T = DAYS_TO_EXPIRY / 365
-
             START_DATE = datetime.date.today().isoformat()
             TARGET_DATE = "-".join(EXPIRY.split("-")[::-1])
 
-            print(f"\tStep 4: Get current price, lb, up, company name, industry name")
+            print(f"\tStep 4: Get bounds and info")
             lb, current_price, ub, cname, ind = get_bounds_and_info(
                 SYMBOL, company_name, industry
             )
 
-            # Result date + days calculation
             result_date = result_calendar.get(SYMBOL, None)
-
             days_to_result = (
                 (pd.to_datetime(result_date) - pd.Timestamp.today()).days
                 if result_date else None
@@ -525,151 +523,97 @@ def generate_short_strangle_csv():
 
             try:
               days_to_result_int = int(days_to_result)
-              if days_to_result_int > 0 and days_to_result < 30: 
+              if 0 < days_to_result_int < 30: 
                 continue
             except:
-              # print(f"Skipping {SYMBOL}")
-              dummy = 'day_to_result present'
+              pass
 
             print(f"\tStep 5: Get Event Calendar and Stock News")
             scraper = MarketScreenerScraper(SYMBOL)
             event_calendar_and_news = scraper.get_event_calendar_and_news()
 
-
             print(f"\tStep 6: Compute the margin, pop")
             for _, row in df.iterrows():
-
                 skip_call = False
                 skip_put = False
-
                 strike_price = row['Strike_Price']
 
-                print(f"\t\tStep 6.0: Get Info for {strike_price}")
-
-                if FUTURES_PRICE * 0.90 < strike_price and strike_price < FUTURES_PRICE * 1.10:
+                if FUTURES_PRICE * 0.90 < strike_price < FUTURES_PRICE * 1.10:
                   continue
 
                 call_premium = (row['CALLS_Ask_Price'] - row['CALLS_Bid_Price']) * 0.25 + row['CALLS_Ask_Price']
                 put_premium  = (row['PUTS_Ask_Price'] - row['PUTS_Bid_Price']) * 0.25 + row['PUTS_Ask_Price']
 
-                if call_premium <= 0:
-                  skip_call = True
-                if put_premium <= 0:
-                  skip_put = True
+                if call_premium <= 0: skip_call = True
+                if put_premium <= 0: skip_put = True
 
                 sigma_call = row['CALLS_IV']
                 sigma_put  = row['PUTS_IV']
 
-                if sigma_call == 0 :
-                  skip_call = True
-                if sigma_put == 0 :
-                  skip_put = True
+                if sigma_call == 0: skip_call = True
+                if sigma_put == 0: skip_put = True
 
-                print(f"\t\tStep 6.1: Get Call POP")
                 if not skip_call:
                   call_POP = get_pop(FUTURES_PRICE, 'CE', strike_price, call_premium, LOT_SIZE, sigma_call, START_DATE, TARGET_DATE) * 100
-                  if call_POP < 90:
-                    skip_call = True
-                print(f"\t\tStep 6.2: Get Put POP")
+                  if call_POP < 90: skip_call = True
+                
                 if not skip_put:
                   put_POP  = get_pop(FUTURES_PRICE, 'PE', strike_price, put_premium,  LOT_SIZE, sigma_put, START_DATE, TARGET_DATE) * 100
-                  if put_POP < 90:
-                    skip_put = True
+                  if put_POP < 90: skip_put = True
 
-                print(f"\t\tStep 6.3: Get Call Margin")
                 try:
                   if not skip_call:
                     call_margin = get_margin_req(SYMBOL, strike_price, EXPIRY, 'CE', LOT_SIZE)
                 except:
-                  # print(f'Symbol {SYMBOL} | Call Margin not available, skipping the symbol')
                   skip_call = True
 
-                print(f"\t\tStep 6.4: Get Put Margin")
                 try:
                   if not skip_put:
                     put_margin  = get_margin_req(SYMBOL, strike_price, EXPIRY, 'PE', LOT_SIZE)
                 except:
-                  # print(f'Symbol {SYMBOL} | Put Margin not available, skipping the symbol')
                   skip_put = True
 
+                if not skip_call: 
+                    call_profit = call_premium * LOT_SIZE
+                    call_profit_pct = call_profit / call_margin * 100
+                    if (strike_price > FUTURES_PRICE) and (call_POP >= 90):
+                        results.append({
+                            "Symbol": SYMBOL, "Company Name": cname, "Industry": ind,
+                            "Current Price": FUTURES_PRICE, "Bound": ub, "Result Date": result_date,
+                            "Days to Result": days_to_result, "Trade Type": "CE", "Sell @": strike_price,
+                            "Sell Premium": round(call_premium, 2), "Max Profit (₹)": int(call_profit),
+                            "Max Profit (%)": round(call_profit_pct, 2), "POP (%)": round(call_POP, 2),
+                            "Margin": call_margin, "Upcoming Events": event_calendar_and_news['upcoming-events'],
+                            "Past Events": event_calendar_and_news['past-events'], "News": event_calendar_and_news['news']
+                        })
 
-                if not skip_call: call_profit = call_premium * LOT_SIZE
-                if not skip_put: put_profit  = put_premium * LOT_SIZE
+                if not skip_put: 
+                    put_profit  = put_premium * LOT_SIZE
+                    put_profit_pct  = put_profit / put_margin * 100
+                    if (strike_price < FUTURES_PRICE) and (put_POP >= 90):
+                        results.append({
+                            "Symbol": SYMBOL, "Company Name": cname, "Industry": ind,
+                            "Current Price": FUTURES_PRICE, "Bound": lb, "Result Date": result_date,
+                            "Days to Result": days_to_result, "Trade Type": "PE", "Sell @": strike_price,
+                            "Sell Premium": round(put_premium, 2), "Max Profit (₹)": int(put_profit),
+                            "Max Profit (%)": round(put_profit_pct, 2), "POP (%)": round(put_POP, 2),
+                            "Margin": put_margin, "Upcoming Events": event_calendar_and_news['upcoming-events'],
+                            "Past Events": event_calendar_and_news['past-events'], "News": event_calendar_and_news['news']
+                        })
 
-                if not skip_call: call_profit_pct = call_profit / call_margin * 100
-                if not skip_put: put_profit_pct  = put_profit / put_margin * 100
-
-
-                # if not skip_put : 
-                #   print(f"{SYMBOL=} {strike_price=} {FUTURES_PRICE=} {put_POP=}")
-
-                if (not skip_put) and (strike_price < FUTURES_PRICE) and (put_POP >= 90):
-                  # print(f"{SYMBOL} {strike_price=} {put_POP}")
-                  results.append({
-                      "Symbol": SYMBOL,
-                      "Company Name": cname,
-                      "Industry": ind,
-                      "Current Price": FUTURES_PRICE,
-                      "Bound": lb,
-                      "Result Date": result_date,
-                      "Days to Result": days_to_result,
-                      "Trade Type": "PE",
-                      "Sell @": strike_price,
-                      "Sell Premium": round(put_premium, 2),
-                      "Max Profit (₹)": int(put_profit),
-                      "Max Profit (%)": round(put_profit_pct, 2),
-                      "POP (%)": round(put_POP, 2),
-                      "Margin": put_margin,
-                      "Upcoming Events": event_calendar_and_news['upcoming-events'],
-                      "Past Events": event_calendar_and_news['past-events'],
-                      "News": event_calendar_and_news['news']
-                  })
-                
-                # if not skip_call: 
-                #   print(f"{SYMBOL=} {strike_price=} {FUTURES_PRICE=} {call_POP=}")
-
-                if (not skip_call) and (strike_price > FUTURES_PRICE) and (call_POP >= 90):
-                  # print(f"{SYMBOL} {strike_price=} {call_POP}")
-                  results.append({
-                      "Symbol": SYMBOL,
-                      "Company Name": cname,
-                      "Industry": ind,
-                      "Current Price": FUTURES_PRICE,
-                      "Bound": ub,
-                      "Result Date": result_date,
-                      "Days to Result": days_to_result,
-                      "Trade Type": "CE",
-                      "Sell @": strike_price,
-                      "Sell Premium": round(call_premium, 2),
-                      "Max Profit (₹)": int(call_profit),
-                      "Max Profit (%)": round(call_profit_pct, 2),
-                      "POP (%)": round(call_POP, 2),
-                      "Margin": call_margin,
-                      "Upcoming Events": event_calendar_and_news['upcoming-events'],
-                      "Past Events": event_calendar_and_news['past-events'],
-                      "News": event_calendar_and_news['news']
-                  })
-
-        # except Exception as e:
         else:
-            print(f"Skipping {SYMBOL}: {e}")
+            print(f"Skipping {SYMBOL}")
             continue
 
-    # print(results)
     result_df = pd.DataFrame(results)
-    # print(result_df)
+    if not result_df.empty:
+        result_df = result_df.sort_values(by="Max Profit (₹)", ascending=False)
     
-    
-    result_df = result_df.sort_values(by="Max Profit (₹)", ascending=False)
-
-    # result_df = filter(result_df)
-
-    # result_df.to_csv("short_strangle_pro.csv", index=False)
-    # result_df save to short_strangle_pro_<date_time in yyyy-mm-dd-hh-mm format>
     os.makedirs(os.path.join('data'), exist_ok=True)
-    result_df.to_csv(os.path.join('data', f"short_strangle_pro_{datetime.datetime.now().strftime('%Y-%m-%d-%H-%M')}.csv"), index=False)
+    filename = f"short_strangle_pro_{datetime.datetime.now().strftime('%Y-%m-%d-%H-%M')}.csv"
+    result_df.to_csv(os.path.join('data', filename), index=False)
 
-    print("\nCSV Generated: short_strangle_pro.csv")
+    print(f"\nCSV Generated: {filename}")
     print(result_df.head())
 
     return result_df
@@ -677,4 +621,5 @@ def generate_short_strangle_csv():
 # ----------------------------
 # RUN
 # ----------------------------
-res_df = generate_short_strangle_csv()
+if __name__ == "__main__":
+    res_df = generate_short_strangle_csv()

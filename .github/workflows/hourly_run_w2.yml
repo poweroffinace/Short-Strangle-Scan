@@ -1,0 +1,41 @@
+name: Short Strangle Week 2 Hourly Sync
+
+on:
+  schedule:
+    # 30: Runs at the 30th minute
+    # 2-10/2: Runs every 2 hours (02:30, 04:30, 06:30, 08:30, 10:30 UTC)
+    # * * : Every day of every month
+    # 1-5: Monday through Friday
+    - cron: '45 0-10/3 * * 1-5'
+  workflow_dispatch: # Allows manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install pandas numpy yfinance beautifulsoup4 scipy nselib requests pandas_market_calendars lxml optionlab
+
+      - name: Run short strangle script
+        run: python "short_strangle_w2.py"
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          # Adding all CSVs in the data folder
+          git add data/*.csv
+          git commit -m "Hourly Strangle Update: $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
+          git push

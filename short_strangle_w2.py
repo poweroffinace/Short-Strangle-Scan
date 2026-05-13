@@ -425,7 +425,7 @@ def get_margin_req(symbol, strike_price, expiry_date, option_type, lot_size):
 def filter(df):
   filter = (df['Sell Put @'] < df['Lower Bound']) & \
        (df['Upper Bound'] < df['Sell Call @']) & \
-       ((df['POP (%)'] > 90) | (df['POP (%)'] < 10)) & \
+       ((df['POP (%)'] > 80) | (df['POP (%)'] < 10)) & \
        (df['Upcoming Events'] == 'No upcoming events found.') & \
        ((df['Days to Result'] > 30) | (df['Days to Result'] is pd.NA) | (df['Days to Result'] is None) | (df['Days to Result'].isna()) | (df['Days to Result'] == '') | (df['Days to Result']<0))
 

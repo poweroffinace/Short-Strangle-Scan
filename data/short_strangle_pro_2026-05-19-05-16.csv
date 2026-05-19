@@ -1,0 +1,999 @@
+Symbol,Company Name,Industry,Current Price,Bound,Result Date,Days to Result,Trade Type,Sell @,Sell Premium,Max Profit (₹),Max Profit (%),POP (%),Margin,Upcoming Events,Past Events,News
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,929,2026-04-23,-27.0,PE,920.0,8.8,5940,2.1,99.85,282609.75625,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,966,2026-04-23,-27.0,CE,1500.0,6.2,4185,1.24,91.36,338185.4625,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,154,2026-04-29,-21.0,PE,160.0,1.03,3665,4.55,99.24,80533.525,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,197,2026-04-29,-21.0,CE,245.0,0.99,3523,2.79,90.9,126257.525,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,966,2026-04-23,-27.0,CE,1520.0,5.17,3493,1.07,92.73,325204.9625,No upcoming events found.,No upcoming events found.,No news found.
+MOTHERSON,Samvardhana Motherson International Ltd.,Automobile and Auto Components,130.39,122,2026-05-20,0.0,CE,144.0,0.53,3244,3.06,91.26,106125.9375,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,197,2026-04-29,-21.0,CE,247.5,0.83,2955,2.45,91.13,120684.025,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1270.0,4.74,2842,1.56,90.56,181785.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,966,2026-04-23,-27.0,CE,1540.0,4.2,2835,0.89,93.47,317470.2125,No upcoming events found.,No upcoming events found.,No news found.
+MOTHERSON,Samvardhana Motherson International Ltd.,Automobile and Auto Components,130.39,122,2026-05-20,0.0,CE,145.0,0.46,2813,2.71,92.54,103727.4375,No upcoming events found.,No upcoming events found.,No news found.
+JINDALSTEL,Jindal Steel Ltd.,Metals & Mining,1236.0,1127,2026-05-01,-19.0,PE,1030.0,4.41,2757,3.85,98.95,71714.875,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1260.0,4.14,2482,1.41,91.47,176127.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,197,2026-04-29,-21.0,CE,252.5,0.7,2476,2.17,93.3,114046.025,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,197,2026-04-29,-21.0,CE,250.0,0.69,2467,2.06,93.37,119513.025,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,966,2026-04-23,-27.0,CE,1560.0,3.59,2421,0.78,94.59,312379.9625,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,929,2026-04-23,-27.0,PE,1180.0,3.58,2413,0.69,92.21,348310.9625,No upcoming events found.,No upcoming events found.,No news found.
+MOTHERSON,Samvardhana Motherson International Ltd.,Automobile and Auto Components,130.39,96,2026-05-20,0.0,PE,114.0,0.38,2352,2.25,94.15,104650.4375,No upcoming events found.,No upcoming events found.,No news found.
+BOSCHLTD,Bosch Ltd.,Automobile and Auto Components,37105.0,32152,2026-05-20,0.0,CE,41000.0,93.19,2329,2.3,93.42,101310.375,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1250.0,3.75,2250,1.32,92.41,170373.0,No upcoming events found.,No upcoming events found.,No news found.
+MOTHERSON,Samvardhana Motherson International Ltd.,Automobile and Auto Components,130.39,96,2026-05-20,0.0,PE,111.0,0.36,2214,2.26,95.67,98007.9375,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,512,2026-04-30,-20.0,PE,520.0,1.8,2205,2.23,97.31,99001.1875,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,288,2026-05-19,-1.0,CE,320.0,1.11,2197,3.7,91.71,59403.8,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,436,2026-05-19,-1.0,CE,475.0,1.52,2173,3.2,92.09,67902.675,No upcoming events found.,No upcoming events found.,No news found.
+VBL,Varun Beverages Ltd.,Fast Moving Consumer Goods,516.3,390,2026-04-30,-20.0,PE,410.0,1.86,2095,4.28,99.95,48951.5625,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,966,2026-04-23,-27.0,CE,1580.0,3.04,2050,0.67,95.1,307284.4625,No upcoming events found.,No upcoming events found.,No news found.
+MOTHERSON,Samvardhana Motherson International Ltd.,Automobile and Auto Components,130.39,122,2026-05-20,0.0,CE,148.0,0.32,1968,2.04,94.13,96470.9375,No upcoming events found.,No upcoming events found.,No news found.
+ZYDUSLIFE,Zydus Lifesciences Ltd.,Healthcare,1009.55,861,2026-05-19,-1.0,PE,850.0,2.17,1957,2.6,98.21,75202.65,No upcoming events found.,No upcoming events found.,No news found.
+INDHOTEL,Indian Hotels Co. Ltd.,Consumer Services,658.65,602,2026-05-11,-9.0,CE,740.0,1.86,1862,3.03,96.93,61459.25,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1240.0,3.1,1859,1.13,93.33,164685.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,966,2026-04-23,-27.0,CE,1600.0,2.67,1805,0.6,96.19,302187.7125,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,288,2026-05-19,-1.0,CE,325.0,0.91,1802,3.24,93.25,55572.8,No upcoming events found.,No upcoming events found.,No news found.
+MOTHERSON,Samvardhana Motherson International Ltd.,Automobile and Auto Components,130.39,96,2026-05-20,0.0,PE,115.0,0.29,1798,1.65,92.82,108831.9375,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,929,2026-04-23,-27.0,PE,1160.0,2.64,1780,0.53,94.22,334823.7125,No upcoming events found.,No upcoming events found.,No news found.
+ZYDUSLIFE,Zydus Lifesciences Ltd.,Healthcare,1009.55,873,2026-05-19,-1.0,CE,1160.0,1.98,1777,2.65,97.14,67138.65,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,154,2026-04-29,-21.0,PE,195.0,0.49,1748,1.4,93.75,125192.525,No upcoming events found.,No upcoming events found.,No news found.
+JINDALSTEL,Jindal Steel Ltd.,Metals & Mining,1236.0,1145,2026-05-01,-19.0,CE,1440.0,2.79,1742,2.45,99.08,71007.875,No upcoming events found.,No upcoming events found.,No news found.
+BOSCHLTD,Bosch Ltd.,Automobile and Auto Components,37105.0,32152,2026-05-20,0.0,CE,41500.0,69.59,1739,1.8,95.01,96626.125,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,436,2026-05-19,-1.0,CE,480.0,1.21,1727,2.66,93.51,65024.175,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1160.0,2.79,1672,1.23,97.49,135813.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,154,2026-04-29,-21.0,PE,172.5,0.47,1650,1.72,98.37,96047.525,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1230.0,2.75,1650,1.04,93.92,158985.0,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,16250.0,32.76,1638,1.35,93.19,121051.25,No upcoming events found.,No upcoming events found.,No news found.
+HDFCAMC,HDFC Asset Management Company Ltd.,Financial Services,2643.1,2398,2026-04-16,-34.0,CE,2940.0,5.44,1631,1.8,96.87,90824.55,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1110.0,2.69,1612,1.3,97.34,123855.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,197,2026-04-29,-21.0,CE,255.0,0.45,1606,1.43,95.39,112625.525,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3304,2026-05-14,-6.0,CE,3650.0,5.84,1605,1.3,94.59,123731.6625,No upcoming events found.,No upcoming events found.,No news found.
+SIEMENS,Siemens Ltd.,Capital Goods,3586.1,3061,,,CE,3950.0,8.99,1572,2.04,91.9,77239.4875,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2480.0,5.04,1556,1.07,93.3,146037.887,No upcoming events found.,No upcoming events found.,No news found.
+CHOLAFIN,Cholamandalam Investment and Finance Company Ltd.,Financial Services,1519.0,1381,2026-04-30,-20.0,PE,1240.0,2.48,1546,1.7,99.17,91204.0625,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,139.0,0.23,1535,1.54,94.59,99573.125,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,288,2026-05-19,-1.0,CE,330.0,0.76,1505,2.9,94.7,51938.3,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6184,2026-05-08,-12.0,PE,5600.0,11.95,1493,1.67,95.64,89339.5625,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1220.0,2.42,1455,0.95,94.58,153321.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,154,2026-04-29,-21.0,PE,175.0,0.41,1446,1.46,98.05,99135.525,No upcoming events found.,No upcoming events found.,No news found.
+MOTHERSON,Samvardhana Motherson International Ltd.,Automobile and Auto Components,130.39,122,2026-05-20,0.0,CE,150.0,0.24,1445,1.57,95.54,91919.4375,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,436,2026-05-19,-1.0,CE,485.0,1.01,1442,2.31,94.57,62416.675,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,262.5,0.61,1439,1.01,94.35,142307.89250000002,No upcoming events found.,No upcoming events found.,No news found.
+BOSCHLTD,Bosch Ltd.,Automobile and Auto Components,37105.0,32152,2026-05-20,0.0,CE,42000.0,56.75,1418,1.55,96.13,91784.375,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,177.5,0.32,1404,1.5,94.44,93550.08875,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,149.0,0.29,1389,2.16,94.16,64366.33125,No upcoming events found.,No upcoming events found.,No news found.
+GRASIM,Grasim Industries Ltd.,Construction Materials,2962.0,2607,2026-05-20,0.0,PE,2600.0,5.55,1387,2.02,97.93,68600.75,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1210.0,2.24,1342,0.91,95.17,147681.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,929,2026-04-23,-27.0,PE,1140.0,1.91,1290,0.4,95.52,321391.9625,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2460.0,4.16,1286,0.92,94.09,140277.937,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,16000.0,25.66,1283,1.1,94.74,116262.75,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,197.5,0.29,1283,2.08,98.35,61557.338749999995,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,246,2026-04-28,-22.0,CE,272.5,0.53,1273,1.63,91.64,77889.075,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3304,2026-05-14,-6.0,CE,3700.0,4.62,1271,1.07,95.68,118759.6625,No upcoming events found.,No upcoming events found.,No news found.
+ZYDUSLIFE,Zydus Lifesciences Ltd.,Healthcare,1009.55,873,2026-05-19,-1.0,CE,1140.0,1.41,1271,1.71,95.72,74302.65,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,141.0,0.19,1265,1.34,95.85,94644.625,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,2720.0,6.26,1252,1.5,93.82,83594.1,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,192.5,0.28,1250,1.81,98.02,69168.33875,No upcoming events found.,No upcoming events found.,No news found.
+SIEMENS,Siemens Ltd.,Capital Goods,3586.1,3061,,,CE,4050.0,7.06,1235,1.75,95.12,70696.4875,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,140.0,0.18,1231,1.27,95.3,96940.625,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,150.0,0.25,1230,1.96,94.68,62660.33125,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,436,2026-05-19,-1.0,CE,490.0,0.86,1229,2.06,95.21,59666.675,No upcoming events found.,No upcoming events found.,No news found.
+SIEMENS,Siemens Ltd.,Capital Goods,3586.1,3061,,,CE,4000.0,7.01,1227,1.66,94.24,73912.4875,No upcoming events found.,No upcoming events found.,No news found.
+SIEMENS,Siemens Ltd.,Capital Goods,3586.1,3040,,,PE,2950.0,7.0,1225,1.88,99.28,65309.4875,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1190.0,2.04,1222,0.86,95.78,142353.0,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,112.0,0.15,1220,1.4,95.43,87217.2,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1200.0,2.02,1215,0.84,95.59,144471.0,No upcoming events found.,No upcoming events found.,No news found.
+MOTHERSON,Samvardhana Motherson International Ltd.,Automobile and Auto Components,130.39,96,2026-05-20,0.0,PE,112.0,0.2,1214,1.21,95.02,100160.9375,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,288,2026-05-19,-1.0,CE,335.0,0.61,1209,2.5,95.8,48423.55,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3278,2026-05-14,-6.0,PE,2950.0,4.38,1203,0.96,94.49,124913.4125,No upcoming events found.,No upcoming events found.,No news found.
+HDFCLIFE,HDFC Life Insurance Company Ltd.,Financial Services,611.7,569,2026-04-16,-34.0,PE,545.0,1.09,1196,1.81,99.21,66179.575,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2303,2026-04-30,-20.0,PE,2120.0,5.97,1195,1.53,95.67,78022.1,No upcoming events found.,No upcoming events found.,No news found.
+APOLLOHOSP,Apollo Hospitals Enterprise Ltd.,Healthcare,8065.0,7380,2026-05-20,0.0,CE,8900.0,9.52,1190,1.22,96.17,97688.6875,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4180,,,PE,3850.0,7.92,1188,1.46,92.76,81616.425,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,707,2026-04-29,-21.0,CE,370.0,1.01,1164,2.38,92.97,48972.75,No upcoming events found.,No upcoming events found.,No news found.
+IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,98.15,104,2026-05-14,-6.0,CE,108.0,0.27,1158,2.0,92.84,58004.925,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,418,2026-05-19,-1.0,PE,385.0,0.81,1157,1.65,92.94,70054.925,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,246,2026-04-28,-22.0,CE,282.5,0.47,1145,1.66,95.7,69207.325,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,113.0,0.14,1140,1.35,95.89,84497.2,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,946,2026-04-24,-26.0,CE,1030.0,1.38,1134,1.05,95.22,107679.0875,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,151.0,0.23,1133,1.87,95.18,60758.58125,No upcoming events found.,No upcoming events found.,No news found.
+BANKBARODA,Bank of Baroda,Financial Services,260.6,269,2026-05-08,-12.0,CE,287.5,0.39,1133,1.32,97.18,85707.11875,No upcoming events found.,No upcoming events found.,No news found.
+BOSCHLTD,Bosch Ltd.,Automobile and Auto Components,37105.0,32152,2026-05-20,0.0,CE,42500.0,45.3,1132,1.3,96.67,87021.625,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,220.0,0.26,1128,2.47,99.62,45673.383125,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,180.0,0.25,1117,1.25,95.6,89611.83875,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd.,Financial Services,10411.0,9139,2026-05-07,-13.0,CE,11800.0,22.23,1111,2.04,98.66,54497.75,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1180.0,1.85,1110,0.79,96.11,140121.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,154,2026-04-29,-21.0,PE,190.0,0.31,1109,0.93,95.17,118767.025,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,197,2026-04-29,-21.0,CE,260.0,0.31,1109,1.05,96.81,105845.525,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,436,2026-05-19,-1.0,CE,495.0,0.78,1104,1.94,96.01,57044.175,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2440.0,3.55,1096,0.82,95.16,134527.137,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,1802.3,1401,2026-04-30,-20.0,CE,2000.0,2.29,1086,1.07,95.79,101093.7625,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3304,2026-05-14,-6.0,CE,3750.0,3.92,1079,0.95,96.44,113858.9125,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,246,2026-04-28,-22.0,CE,275.0,0.44,1073,1.42,92.93,75705.825,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2420.0,3.43,1058,0.82,95.17,129030.53700000001,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,2740.0,5.29,1057,1.31,94.33,80604.1,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3278,2026-05-14,-6.0,PE,2900.0,3.83,1051,0.88,95.55,119985.9125,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,152.0,0.21,1048,1.77,95.65,59052.58125,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,260.0,0.44,1039,0.72,94.5,144446.39250000002,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,15750.0,20.66,1033,0.93,95.62,111608.75,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,142.0,0.15,1029,1.12,96.34,92282.625,No upcoming events found.,No upcoming events found.,No news found.
+ZYDUSLIFE,Zydus Lifesciences Ltd.,Healthcare,1009.55,861,2026-05-19,-1.0,PE,860.0,1.14,1023,1.31,97.08,78343.65,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,288,2026-05-19,-1.0,CE,340.0,0.51,1012,2.26,96.32,44829.05,No upcoming events found.,No upcoming events found.,No news found.
+ZYDUSLIFE,Zydus Lifesciences Ltd.,Healthcare,1009.55,861,2026-05-19,-1.0,PE,900.0,1.12,1012,1.1,95.29,92275.65,No upcoming events found.,No upcoming events found.,No news found.
+CGPOWER,CG Power and Industrial Solutions Ltd.,Capital Goods,819.6,706,2026-05-06,-14.0,CE,910.0,1.19,1009,1.19,94.28,84716.8125,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,246,2026-04-28,-22.0,CE,277.5,0.41,1006,1.37,93.53,73499.575,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,548,2026-04-30,-20.0,CE,700.0,0.81,995,0.79,95.38,126208.4375,No upcoming events found.,No upcoming events found.,No news found.
+CHOLAFIN,Cholamandalam Investment and Finance Company Ltd.,Financial Services,1519.0,1404,2026-04-30,-20.0,CE,1680.0,1.59,992,0.81,96.31,122247.8125,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,2760.0,4.96,992,1.25,94.91,79254.1,No upcoming events found.,No upcoming events found.,No news found.
+BOSCHLTD,Bosch Ltd.,Automobile and Auto Components,37105.0,32123,2026-05-20,0.0,PE,33000.0,39.51,987,1.02,95.18,96888.125,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,114.0,0.12,980,1.2,96.31,81697.2,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,14250.0,19.51,975,1.17,98.67,83465.75,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7000.0,7.8,975,0.97,96.02,100445.5625,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,217,2026-04-28,-22.0,PE,195.0,0.4,970,1.52,98.93,63727.075,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,946,2026-04-24,-26.0,CE,1040.0,1.17,969,0.93,95.97,104716.5875,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,143.0,0.14,961,1.07,96.66,89650.125,No upcoming events found.,No upcoming events found.,No news found.
+CHOLAFIN,Cholamandalam Investment and Finance Company Ltd.,Financial Services,1519.0,1404,2026-04-30,-20.0,CE,1700.0,1.54,960,0.82,96.76,117828.8125,No upcoming events found.,No upcoming events found.,No news found.
+GRASIM,Grasim Industries Ltd.,Construction Materials,2962.0,2621,2026-05-20,0.0,CE,3320.0,3.83,956,1.44,98.13,66318.25,No upcoming events found.,No upcoming events found.,No news found.
+PIDILITIND,Pidilite Industries Ltd.,Chemicals,1467.2,1284,2026-05-07,-13.0,PE,1250.0,1.9,950,1.53,98.54,62213.5,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2400.0,3.06,946,0.75,95.81,126867.03700000001,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2380.0,3.06,946,0.76,96.21,124395.437,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,436,2026-05-19,-1.0,CE,500.0,0.66,944,1.73,96.58,54422.675,No upcoming events found.,No upcoming events found.,No news found.
+SBILIFE,SBI Life Insurance Company Ltd.,Financial Services,1883.0,1843,2026-04-22,-28.0,CE,2200.0,2.51,942,1.9,99.52,49539.5,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,197,2026-04-29,-21.0,CE,262.5,0.27,940,0.92,97.39,102579.025,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,288,2026-05-19,-1.0,CE,345.0,0.48,938,2.3,96.8,40701.05,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,153.0,0.19,938,1.64,95.96,57102.83125,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1150.0,1.56,937,0.7,96.9,133563.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,197,2026-04-29,-21.0,CE,265.0,0.26,931,0.95,97.36,97928.525,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,290,2026-05-15,-5.0,PE,255.0,0.49,926,1.93,96.79,48011.575,No upcoming events found.,No upcoming events found.,No news found.
+BANKBARODA,Bank of Baroda,Financial Services,260.6,269,2026-05-08,-12.0,CE,290.0,0.31,914,1.1,96.35,83074.86875,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,262,2026-05-19,-1.0,PE,255.0,0.46,913,1.35,94.01,67817.55,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,319,2026-04-28,-22.0,PE,295.0,0.65,910,1.56,96.09,58505.3,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1140.0,1.51,907,0.7,96.72,130305.0,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,15250.0,18.06,903,0.88,97.13,102163.75,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,154.0,0.18,901,1.66,96.39,54421.83125,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,115.0,0.11,900,1.14,96.92,78897.2,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3420.0,4.5,900,1.33,95.38,67739.9,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3304,2026-05-14,-6.0,CE,3800.0,3.27,900,0.83,97.09,108947.4125,No upcoming events found.,No upcoming events found.,No news found.
+JINDALSTEL,Jindal Steel Ltd.,Metals & Mining,1236.0,1145,2026-05-01,-19.0,CE,1380.0,1.44,898,1.07,98.19,84183.375,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,182.5,0.2,896,1.05,95.57,85584.58875,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,144.0,0.13,894,1.02,96.78,87288.125,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd.,Financial Services,10411.0,9119,2026-05-07,-13.0,PE,9000.0,17.52,876,1.59,93.68,55195.75,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,418,2026-05-19,-1.0,PE,380.0,0.61,872,1.3,94.45,67261.675,No upcoming events found.,No upcoming events found.,No news found.
+SIEMENS,Siemens Ltd.,Capital Goods,3586.1,3061,,,CE,4100.0,4.99,872,1.29,96.93,67512.9875,No upcoming events found.,No upcoming events found.,No news found.
+APOLLOHOSP,Apollo Hospitals Enterprise Ltd.,Healthcare,8065.0,7380,2026-05-20,0.0,CE,9000.0,6.96,870,0.93,96.97,93093.4375,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,2780.0,4.34,867,1.11,95.41,77848.1,No upcoming events found.,No upcoming events found.,No news found.
+HYUNDAI,Hyundai Motor India Ltd.,Automobile and Auto Components,1779.0,1708,2026-05-08,-12.0,CE,2060.0,3.15,866,2.02,97.86,42984.5375,No upcoming events found.,No upcoming events found.,No news found.
+ZYDUSLIFE,Zydus Lifesciences Ltd.,Healthcare,1009.55,861,2026-05-19,-1.0,PE,880.0,0.96,866,1.02,96.79,84634.65,No upcoming events found.,No upcoming events found.,No news found.
+IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,98.15,104,2026-05-14,-6.0,CE,110.0,0.2,860,1.57,94.74,54987.425,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,246,2026-04-28,-22.0,CE,280.0,0.35,854,1.2,94.46,71292.325,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,929,2026-04-23,-27.0,PE,1120.0,1.26,852,0.27,96.65,314365.2125,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1130.0,1.41,847,0.66,97.09,128157.0,No upcoming events found.,No upcoming events found.,No news found.
+CHOLAFIN,Cholamandalam Investment and Finance Company Ltd.,Financial Services,1519.0,1404,2026-04-30,-20.0,CE,1720.0,1.35,843,0.74,97.58,113410.3125,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,146.0,0.12,843,1.03,97.67,81955.125,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,155.0,0.17,840,1.56,96.82,53738.83125,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,548,2026-04-30,-20.0,CE,720.0,0.68,826,0.72,96.73,114375.6875,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,116.0,0.1,820,1.08,97.06,75697.2,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,946,2026-04-24,-26.0,CE,1060.0,0.99,814,0.82,97.22,98875.8375,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,15500.0,16.27,813,0.76,96.48,106848.75,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2303,2026-04-30,-20.0,PE,2200.0,4.06,812,0.94,93.38,86788.1,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2340.0,2.62,811,0.67,96.63,120322.687,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,512,2026-04-30,-20.0,PE,570.0,0.66,811,0.67,95.25,121161.4375,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,548,2026-04-30,-20.0,CE,710.0,0.66,811,0.68,96.4,118528.1875,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,265.0,0.35,810,0.58,95.95,140169.39250000002,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,14750.0,16.21,810,0.88,97.96,92211.25,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,185.0,0.18,807,0.99,96.9,81558.33875,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,725,2026-04-24,-26.0,CE,970.0,1.79,804,1.49,94.13,54117.5625,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3304,2026-05-14,-6.0,CE,3850.0,2.9,797,0.77,97.52,104044.1625,No upcoming events found.,No upcoming events found.,No news found.
+PFC,Power Finance Corporation Ltd.,Financial Services,430.8,418,2026-05-13,-7.0,CE,475.0,0.61,796,1.1,95.45,72179.9,No upcoming events found.,No upcoming events found.,No news found.
+TECHM,Tech Mahindra Ltd.,Information Technology,1484.0,1436,2026-04-22,-28.0,PE,1320.0,1.33,795,0.83,95.8,95568.0,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,946,2026-04-24,-26.0,CE,1050.0,0.96,794,0.78,96.66,101837.8375,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,154,2026-04-29,-21.0,PE,180.0,0.22,789,0.75,97.12,105312.525,No upcoming events found.,No upcoming events found.,No news found.
+SIEMENS,Siemens Ltd.,Capital Goods,3586.1,3040,,,PE,3200.0,4.46,780,0.96,94.98,81516.2375,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,2800.0,3.89,777,1.02,95.93,76440.1,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,147.0,0.12,776,0.98,97.74,79593.125,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2360.0,2.51,776,0.63,96.67,122408.687,No upcoming events found.,No upcoming events found.,No news found.
+BANKBARODA,Bank of Baroda,Financial Services,260.6,248,2026-05-08,-12.0,PE,230.0,0.26,767,0.93,95.46,82489.86875,No upcoming events found.,No upcoming events found.,No news found.
+CGPOWER,CG Power and Industrial Solutions Ltd.,Capital Goods,819.6,675,2026-05-06,-14.0,PE,700.0,0.9,765,0.93,97.08,81953.8125,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,692,2026-04-24,-26.0,PE,790.0,1.7,765,1.17,92.82,65300.5625,No upcoming events found.,No upcoming events found.,No news found.
+CHOLAFIN,Cholamandalam Investment and Finance Company Ltd.,Financial Services,1519.0,1404,2026-04-30,-20.0,CE,1740.0,1.22,765,0.7,97.91,108935.8125,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1120.0,1.27,765,0.61,97.3,125991.0,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,469,2026-04-27,-23.0,CE,505.0,0.56,759,1.17,96.3,64656.225,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,145.0,0.11,759,0.89,97.22,84993.125,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7100.0,6.06,757,0.79,97.01,95942.5625,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,267.5,0.32,757,0.55,96.24,138125.39250000002,No upcoming events found.,No upcoming events found.,No news found.
+MOTHERSON,Samvardhana Motherson International Ltd.,Automobile and Auto Components,130.39,96,2026-05-20,0.0,PE,110.0,0.12,753,0.78,96.55,96778.4375,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3765,2026-05-14,-6.0,CE,4800.0,5.0,750,0.96,96.07,78364.125,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4180,,,PE,3800.0,5.0,750,0.95,94.73,78725.925,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1080.0,1.24,742,0.63,97.48,118557.0,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,288,2026-05-19,-1.0,CE,355.0,0.38,740,2.16,97.88,34341.05,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,118.0,0.09,740,1.05,97.52,70177.2,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,117.0,0.09,740,1.01,97.61,72977.2,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2303,2026-04-30,-20.0,PE,2160.0,3.69,737,0.91,94.96,80960.1,No upcoming events found.,No upcoming events found.,No news found.
+INDHOTEL,Indian Hotels Co. Ltd.,Consumer Services,658.65,602,2026-05-11,-9.0,CE,725.0,0.74,737,1.1,98.09,66809.25,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,217,2026-04-28,-22.0,PE,220.0,0.3,733,0.85,96.43,86594.575,No upcoming events found.,No upcoming events found.,No news found.
+IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,98.15,104,2026-05-14,-6.0,CE,111.0,0.17,733,1.39,95.55,52904.925,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,539,2026-05-13,-7.0,CE,645.0,0.89,732,0.59,95.66,123545.76875,No upcoming events found.,No upcoming events found.,No news found.
+PFC,Power Finance Corporation Ltd.,Financial Services,430.8,418,2026-05-13,-7.0,CE,480.0,0.56,731,1.05,96.48,69878.9,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7150.0,5.85,731,0.78,95.51,93718.0625,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,119,2026-05-11,-9.0,PE,112.0,0.11,725,0.72,96.6,101193.125,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2140.0,2.34,722,0.74,98.26,97858.637,No upcoming events found.,No upcoming events found.,No news found.
+BAJFINANCE,Bajaj Finance Ltd.,Financial Services,925.95,862,2026-04-29,-21.0,CE,1020.0,0.96,721,0.96,96.05,75111.375,No upcoming events found.,No upcoming events found.,No news found.
+CHOLAFIN,Cholamandalam Investment and Finance Company Ltd.,Financial Services,1519.0,1381,2026-04-30,-20.0,PE,1360.0,1.15,718,0.61,96.26,117960.8125,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,370.0,0.51,717,1.19,95.43,60087.3,No upcoming events found.,No upcoming events found.,No news found.
+UNITDSPR,United Spirits Ltd.,Fast Moving Consumer Goods,1324.5,1212,2026-05-14,-6.0,PE,1080.0,1.79,715,1.9,97.26,37595.8,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,288,2026-05-19,-1.0,CE,350.0,0.36,715,1.88,97.47,38034.55,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2280.0,2.31,714,0.63,97.45,113095.03700000001,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,13250.0,14.26,713,1.08,98.81,65989.75,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4565,2026-05-02,-18.0,CE,5050.0,4.75,712,1.43,99.77,49852.175,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,539,2026-05-13,-7.0,CE,640.0,0.86,711,0.57,95.43,124956.76875,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,270.0,0.3,710,0.52,96.58,136080.39250000002,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,246,2026-04-28,-22.0,CE,285.0,0.29,709,1.06,95.61,66976.075,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,1802.3,1377,2026-04-30,-20.0,PE,1620.0,1.49,706,0.65,96.32,108233.0125,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,275.0,0.3,705,0.53,97.2,131991.39250000002,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1100.0,1.17,704,0.57,97.48,122943.0,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,661,2026-04-29,-21.0,PE,290.0,0.61,704,1.38,94.3,50996.75,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,707,2026-04-29,-21.0,CE,380.0,0.61,704,1.58,95.45,44626.25,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,2820.0,3.49,697,0.93,96.4,75018.1,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,157.0,0.14,694,1.39,97.31,50131.08125,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,148.0,0.1,691,0.9,97.82,77230.125,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,290,2026-05-15,-5.0,PE,260.0,0.36,688,1.34,98.18,51431.575,No upcoming events found.,No upcoming events found.,No news found.
+CHOLAFIN,Cholamandalam Investment and Finance Company Ltd.,Financial Services,1519.0,1404,2026-04-30,-20.0,CE,1840.0,1.1,687,0.79,99.16,86673.0625,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,187.5,0.15,685,0.89,97.58,77487.08875,No upcoming events found.,No upcoming events found.,No news found.
+PFC,Power Finance Corporation Ltd.,Financial Services,430.8,418,2026-05-13,-7.0,CE,485.0,0.53,682,1.01,96.43,67603.9,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,539,2026-05-13,-7.0,CE,650.0,0.83,680,0.56,96.04,122085.51875,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2300.0,2.2,679,0.59,97.19,115900.837,No upcoming events found.,No upcoming events found.,No news found.
+CHOLAFIN,Cholamandalam Investment and Finance Company Ltd.,Financial Services,1519.0,1404,2026-04-30,-20.0,CE,1760.0,1.09,679,0.65,98.37,104497.8125,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,272.5,0.29,675,0.51,98.04,133331.39250000002,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,929,2026-04-23,-27.0,PE,1100.0,1.0,675,0.22,97.31,310294.9625,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,725,2026-04-24,-26.0,CE,980.0,1.49,669,1.27,95.39,52601.5625,No upcoming events found.,No upcoming events found.,No news found.
+AMBUJACEM,Ambuja Cements Ltd.,Construction Materials,433.2,438,2026-05-04,-16.0,CE,505.0,0.64,669,0.62,97.91,108001.1375,No upcoming events found.,No upcoming events found.,No news found.
+TATASTEEL,Tata Steel Ltd.,Metals & Mining,211.13,206,2026-05-15,-5.0,CE,232.5,0.24,666,1.05,95.68,63250.0875,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3304,2026-05-14,-6.0,CE,3900.0,2.42,666,0.67,97.98,99165.1625,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3580.0,3.79,662,1.02,95.86,65116.875,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,436,2026-05-19,-1.0,CE,510.0,0.46,659,1.34,97.45,49277.925,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,418,2026-05-19,-1.0,PE,375.0,0.46,659,1.02,96.0,64582.925,No upcoming events found.,No upcoming events found.,No news found.
+CGPOWER,CG Power and Industrial Solutions Ltd.,Capital Goods,819.6,675,2026-05-06,-14.0,PE,730.0,0.78,658,0.72,95.61,90930.3125,No upcoming events found.,No upcoming events found.,No news found.
+HYUNDAI,Hyundai Motor India Ltd.,Automobile and Auto Components,1779.0,1708,2026-05-08,-12.0,CE,1960.0,2.39,656,1.23,95.36,53280.0375,No upcoming events found.,No upcoming events found.,No news found.
+IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,98.15,104,2026-05-14,-6.0,CE,112.0,0.15,648,1.25,95.94,51841.925,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,548,2026-04-30,-20.0,CE,740.0,0.53,643,0.61,97.9,105714.1875,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,512,2026-04-30,-20.0,PE,540.0,0.53,643,0.59,97.44,108299.4375,No upcoming events found.,No upcoming events found.,No news found.
+JSWSTEEL,JSW Steel Ltd.,Metals & Mining,1288.4,1126,2026-05-14,-6.0,PE,1150.0,0.95,641,0.3,95.39,214810.4,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,539,2026-05-13,-7.0,CE,660.0,0.78,639,0.54,96.55,119058.51875,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,915,2026-04-24,-26.0,PE,830.0,0.78,639,0.61,96.01,104601.5875,No upcoming events found.,No upcoming events found.,No news found.
+TECHM,Tech Mahindra Ltd.,Information Technology,1484.0,1436,2026-04-22,-28.0,PE,1300.0,1.06,637,0.7,96.55,91104.0,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3765,2026-05-14,-6.0,CE,4850.0,4.25,637,0.84,96.82,75680.625,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,661,2026-04-29,-21.0,PE,210.0,0.55,632,2.54,99.48,24918.125,No upcoming events found.,No upcoming events found.,No news found.
+TECHM,Tech Mahindra Ltd.,Information Technology,1484.0,1436,2026-04-22,-28.0,PE,1260.0,1.05,629,0.77,97.9,82338.0,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,517,2026-05-13,-7.0,PE,520.0,0.76,629,0.49,94.52,128512.76875,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,512,2026-04-30,-20.0,PE,550.0,0.51,627,0.56,96.54,112562.6875,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,548,2026-04-30,-20.0,CE,730.0,0.51,627,0.57,97.34,110062.9375,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,469,2026-04-27,-23.0,CE,510.0,0.46,624,1.0,96.98,62145.725,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,150.0,0.09,624,0.86,98.27,72910.625,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,692,2026-04-24,-26.0,PE,780.0,1.39,624,1.02,93.95,61111.0625,No upcoming events found.,No upcoming events found.,No news found.
+BANKBARODA,Bank of Baroda,Financial Services,260.6,269,2026-05-08,-12.0,CE,295.0,0.21,621,0.8,98.02,77897.61875,No upcoming events found.,No upcoming events found.,No news found.
+BANKBARODA,Bank of Baroda,Financial Services,260.6,248,2026-05-08,-12.0,PE,220.0,0.21,621,0.86,97.35,72164.61875,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,2860.0,3.1,620,0.86,96.93,72188.1,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2220.0,2.0,618,0.58,97.78,107082.187,No upcoming events found.,No upcoming events found.,No news found.
+BOSCHLTD,Bosch Ltd.,Automobile and Auto Components,37105.0,32123,2026-05-20,0.0,PE,32000.0,24.75,618,0.7,96.99,87882.375,No upcoming events found.,No upcoming events found.,No news found.
+BAJFINANCE,Bajaj Finance Ltd.,Financial Services,925.95,839,2026-04-29,-21.0,PE,790.0,0.82,618,0.94,98.81,65549.375,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,262,2026-05-19,-1.0,PE,250.0,0.31,617,0.96,95.76,64084.55,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7250.0,4.94,617,0.69,97.93,89126.3125,No upcoming events found.,No upcoming events found.,No news found.
+IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,98.15,81,2026-05-14,-6.0,PE,88.0,0.15,616,1.06,94.61,58386.925,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1060.0,1.02,615,0.54,96.84,113295.0,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd.,Financial Services,10411.0,9139,2026-05-07,-13.0,CE,11500.0,12.29,614,1.02,96.12,60058.75,No upcoming events found.,No upcoming events found.,No news found.
+BOSCHLTD,Bosch Ltd.,Automobile and Auto Components,37105.0,32123,2026-05-20,0.0,PE,30000.0,24.5,612,0.88,98.57,69666.875,No upcoming events found.,No upcoming events found.,No news found.
+BAJFINANCE,Bajaj Finance Ltd.,Financial Services,925.95,862,2026-04-29,-21.0,CE,1030.0,0.81,609,0.84,96.6,72433.875,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,517,2026-05-13,-7.0,PE,515.0,0.74,608,0.48,95.04,127003.01875,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,153.0,0.09,607,0.92,98.73,65957.625,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2240.0,1.96,606,0.56,97.6,108703.887,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,418,2026-05-19,-1.0,PE,370.0,0.43,605,0.98,96.55,62045.675,No upcoming events found.,No upcoming events found.,No news found.
+HDFCLIFE,HDFC Life Insurance Company Ltd.,Financial Services,611.7,569,2026-04-16,-34.0,PE,525.0,0.55,605,1.03,99.83,58501.575,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3600.0,3.44,601,0.94,96.32,63823.375,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,277.5,0.26,599,0.46,97.46,129265.3925,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,1802.3,1377,2026-04-30,-20.0,PE,1600.0,1.26,599,0.57,97.0,104898.5125,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,450.0,0.41,598,1.06,96.48,56408.7625,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,2840.0,2.99,597,0.81,96.89,73548.1,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,158.0,0.12,597,1.23,97.69,48425.08125,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4180,,,PE,3650.0,3.98,596,0.85,97.7,70458.925,No upcoming events found.,No upcoming events found.,No news found.
+CGPOWER,CG Power and Industrial Solutions Ltd.,Capital Goods,819.6,675,2026-05-06,-14.0,PE,720.0,0.7,595,0.68,96.27,87529.8125,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,1802.3,1377,2026-04-30,-20.0,PE,1580.0,1.25,593,0.58,97.31,101564.5125,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3848,2026-04-22,-28.0,CE,4500.0,5.94,593,1.12,95.41,53166.05,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7200.0,4.75,593,0.65,97.78,91444.3125,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2200.0,1.91,590,0.56,97.78,104962.087,No upcoming events found.,No upcoming events found.,No news found.
+AMBUJACEM,Ambuja Cements Ltd.,Construction Materials,433.2,438,2026-05-04,-16.0,CE,480.0,0.56,590,0.5,95.3,117409.1375,No upcoming events found.,No upcoming events found.,No news found.
+INDHOTEL,Indian Hotels Co. Ltd.,Consumer Services,658.65,586,2026-05-11,-9.0,PE,590.0,0.59,587,0.8,96.37,73069.25,No upcoming events found.,No upcoming events found.,No news found.
+JINDALSTEL,Jindal Steel Ltd.,Metals & Mining,1236.0,1145,2026-05-01,-19.0,CE,1360.0,0.94,585,0.66,96.86,88626.875,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,205,2026-04-16,-34.0,CE,217.5,0.2,585,0.95,96.4,61796.775,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,548,2026-04-30,-20.0,CE,750.0,0.48,581,0.57,98.05,101500.1875,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,548,2026-04-30,-20.0,CE,760.0,0.48,581,0.6,98.18,97212.9375,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,95,2026-05-05,-15.0,PE,90.0,0.07,580,0.61,96.41,94977.2,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,15000.0,11.6,580,0.59,97.61,97624.75,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,120.0,0.07,580,0.9,98.1,64657.2,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,375.0,0.41,577,1.0,96.47,57595.3,No upcoming events found.,No upcoming events found.,No news found.
+TECHM,Tech Mahindra Ltd.,Information Technology,1484.0,1459,2026-04-22,-28.0,CE,1640.0,0.96,577,0.77,97.27,74532.0,No upcoming events found.,No upcoming events found.,No news found.
+JSWSTEEL,JSW Steel Ltd.,Metals & Mining,1288.4,1141,2026-05-14,-6.0,CE,1420.0,0.85,573,0.26,97.39,218718.65,No upcoming events found.,No upcoming events found.,No news found.
+CGPOWER,CG Power and Industrial Solutions Ltd.,Capital Goods,819.6,706,2026-05-06,-14.0,CE,940.0,0.68,573,0.76,97.8,75689.8125,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1211,2026-05-12,-8.0,PE,1200.0,0.91,570,0.68,96.35,83695.0,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,218,2026-04-17,-33.0,PE,210.0,0.24,569,0.39,95.44,147571.89250000002,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3278,2026-05-14,-6.0,PE,2800.0,2.06,567,0.52,97.7,109917.9125,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,217,2026-04-28,-22.0,PE,217.5,0.23,563,0.68,97.39,83320.825,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,246,2026-04-28,-22.0,CE,290.0,0.23,563,0.9,96.53,62659.825,No upcoming events found.,No upcoming events found.,No news found.
+SIEMENS,Siemens Ltd.,Capital Goods,3586.1,3061,,,CE,4200.0,3.21,562,0.92,97.76,61259.9875,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3765,2026-05-14,-6.0,CE,4900.0,3.74,560,0.77,97.2,73015.125,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,469,2026-04-27,-23.0,CE,515.0,0.41,556,0.93,97.39,59674.725,No upcoming events found.,No upcoming events found.,No news found.
+TATASTEEL,Tata Steel Ltd.,Metals & Mining,211.13,206,2026-05-15,-5.0,CE,235.0,0.2,556,0.92,96.46,60747.5875,No upcoming events found.,No upcoming events found.,No news found.
+AXISBANK,Axis Bank Ltd.,Financial Services,1242.7,1255,2026-04-25,-25.0,CE,1430.0,0.89,554,0.89,98.38,62329.3125,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,1802.3,1377,2026-04-30,-20.0,PE,1380.0,1.16,552,0.82,99.27,67625.2625,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,1802.3,1377,2026-04-30,-20.0,PE,1520.0,1.16,552,0.6,97.85,91408.5125,No upcoming events found.,No upcoming events found.,No news found.
+AMBUJACEM,Ambuja Cements Ltd.,Construction Materials,433.2,438,2026-05-04,-16.0,CE,485.0,0.53,551,0.48,96.13,115498.1375,No upcoming events found.,No upcoming events found.,No news found.
+UNITDSPR,United Spirits Ltd.,Fast Moving Consumer Goods,1324.5,1227,2026-05-14,-6.0,CE,1540.0,1.38,550,1.39,98.62,39599.8,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3620.0,3.14,549,0.88,96.78,62511.125,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,120,2026-05-18,-2.0,PE,120.0,0.11,548,0.74,96.06,73677.58125,No upcoming events found.,No upcoming events found.,No news found.
+HYUNDAI,Hyundai Motor India Ltd.,Automobile and Auto Components,1779.0,1708,2026-05-08,-12.0,CE,1980.0,1.99,546,1.08,96.14,50758.7875,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1310.0,1.36,545,1.39,95.97,39207.0,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,190.0,0.12,542,0.74,97.97,73459.83875,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3304,2026-05-14,-6.0,CE,4000.0,1.96,539,0.6,98.43,89496.4125,No upcoming events found.,No upcoming events found.,No news found.
+INDHOTEL,Indian Hotels Co. Ltd.,Consumer Services,658.65,602,2026-05-11,-9.0,CE,730.0,0.54,537,0.83,96.93,64979.25,No upcoming events found.,No upcoming events found.,No news found.
+PFC,Power Finance Corporation Ltd.,Financial Services,430.8,418,2026-05-13,-7.0,CE,490.0,0.41,536,0.82,97.32,65315.9,No upcoming events found.,No upcoming events found.,No news found.
+BAJFINANCE,Bajaj Finance Ltd.,Financial Services,925.95,862,2026-04-29,-21.0,CE,1040.0,0.71,534,0.77,97.25,69734.375,No upcoming events found.,No upcoming events found.,No news found.
+VBL,Varun Beverages Ltd.,Fast Moving Consumer Goods,516.3,417,2026-04-30,-20.0,CE,570.0,0.48,534,0.8,96.31,66569.3125,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1050.0,0.71,534,0.8,97.06,66554.75,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,2880.0,2.66,532,0.75,97.28,70742.1,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,661,2026-04-29,-21.0,PE,280.0,0.46,531,1.14,95.91,46776.25,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,707,2026-04-29,-21.0,CE,390.0,0.46,531,1.32,96.98,40347.75,No upcoming events found.,No upcoming events found.,No news found.
+JSWSTEEL,JSW Steel Ltd.,Metals & Mining,1288.4,1126,2026-05-14,-6.0,PE,1140.0,0.79,531,0.25,97.35,212191.4,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,385.0,0.38,525,1.0,97.3,52653.3,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,319,2026-04-28,-22.0,PE,270.0,0.38,525,1.14,99.23,45933.3,No upcoming events found.,No upcoming events found.,No news found.
+PIDILITIND,Pidilite Industries Ltd.,Chemicals,1467.2,1297,2026-05-07,-13.0,CE,1620.0,1.05,525,0.77,96.89,68053.5,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1211,2026-05-12,-8.0,PE,1190.0,0.84,523,0.64,96.91,81426.25,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,280.0,0.22,522,0.41,97.71,127691.3925,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,218,2026-04-17,-33.0,PE,195.0,0.22,522,0.39,98.23,134905.89250000002,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,1802.3,1377,2026-04-30,-20.0,PE,1480.0,1.1,522,0.62,98.35,84682.5125,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,122.0,0.07,520,0.88,98.63,58817.2,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,512,2026-04-30,-20.0,PE,530.0,0.43,520,0.5,98.05,103325.4375,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,288,2026-05-19,-1.0,CE,360.0,0.26,518,1.63,98.24,31853.05,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3743,2026-05-14,-6.0,PE,3850.0,3.45,517,0.67,96.3,77591.625,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,205,2026-04-16,-34.0,CE,220.0,0.17,517,0.88,96.8,59036.775,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1510.0,1.47,516,2.25,99.69,22910.275,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,436,2026-05-19,-1.0,CE,520.0,0.36,516,1.16,98.05,44347.675,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,946,2026-04-24,-26.0,CE,1100.0,0.62,515,0.59,98.38,87185.8375,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1300.0,1.46,511,1.38,96.07,37030.85,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,692,2026-04-24,-26.0,PE,770.0,1.14,511,0.88,95.04,58032.5625,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,380.0,0.36,507,0.92,96.74,55201.3,No upcoming events found.,No upcoming events found.,No news found.
+JINDALSTEL,Jindal Steel Ltd.,Metals & Mining,1236.0,1127,2026-05-01,-19.0,PE,1100.0,0.81,507,0.58,96.82,87352.375,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,319,2026-04-28,-22.0,PE,300.0,0.36,507,0.83,95.63,61151.3,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3848,2026-04-22,-28.0,CE,4550.0,5.06,506,0.98,96.27,51402.05,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2160.0,1.64,505,0.5,98.08,100493.587,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,285.0,0.21,505,0.41,97.96,123696.3925,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7300.0,4.03,503,0.58,98.1,86967.0625,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,1000.0,0.84,502,0.5,98.41,101493.0,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,121.0,0.06,500,0.81,98.58,61537.2,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,160.0,0.1,499,1.11,97.97,44915.33125,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1660.0,1.42,498,2.36,99.98,21097.275,No upcoming events found.,No upcoming events found.,No news found.
+AMBUJACEM,Ambuja Cements Ltd.,Construction Materials,433.2,438,2026-05-04,-16.0,CE,490.0,0.48,498,0.44,96.89,113576.1375,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5542,2026-05-07,-13.0,CE,6050.0,3.97,496,0.81,97.57,61388.1875,No upcoming events found.,No upcoming events found.,No news found.
+UNITDSPR,United Spirits Ltd.,Fast Moving Consumer Goods,1324.5,1227,2026-05-14,-6.0,CE,1600.0,1.24,495,1.57,99.15,31575.8,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3765,2026-05-14,-6.0,CE,4950.0,3.29,493,0.7,97.6,70345.625,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1292,2026-04-23,-27.0,PE,1070.0,1.22,489,0.92,95.1,53247.0,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,469,2026-04-27,-23.0,CE,520.0,0.36,489,0.85,97.75,57272.225,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3640.0,2.76,483,0.79,96.95,61189.875,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1370.0,0.69,481,0.54,97.94,89430.95,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,1802.3,1377,2026-04-30,-20.0,PE,1540.0,1.01,480,0.51,97.76,94833.2625,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,725,2026-04-24,-26.0,CE,1000.0,1.06,478,0.97,96.8,49411.0625,No upcoming events found.,No upcoming events found.,No news found.
+IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,98.15,104,2026-05-14,-6.0,CE,115.0,0.11,478,1.01,97.33,47252.425,No upcoming events found.,No upcoming events found.,No news found.
+HYUNDAI,Hyundai Motor India Ltd.,Automobile and Auto Components,1779.0,1708,2026-05-08,-12.0,CE,2000.0,1.74,477,0.97,96.8,49320.5375,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1470.0,1.36,476,2.63,99.22,18155.35,No upcoming events found.,No upcoming events found.,No news found.
+BANKBARODA,Bank of Baroda,Financial Services,260.6,269,2026-05-08,-12.0,CE,300.0,0.16,475,0.65,98.19,72662.36875,No upcoming events found.,No upcoming events found.,No news found.
+SIEMENS,Siemens Ltd.,Capital Goods,3586.1,3061,,,CE,4300.0,2.71,474,0.87,98.41,54666.2375,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,517,2026-05-13,-7.0,PE,510.0,0.58,474,0.38,96.01,125468.26875,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,539,2026-05-13,-7.0,CE,680.0,0.58,474,0.42,97.68,113159.51875,No upcoming events found.,No upcoming events found.,No news found.
+TATASTEEL,Tata Steel Ltd.,Metals & Mining,211.13,206,2026-05-15,-5.0,CE,237.5,0.17,474,0.81,96.93,58245.0875,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,692,2026-04-24,-26.0,PE,760.0,1.05,472,0.84,95.62,56412.5625,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3480.0,2.36,472,0.74,97.1,63439.9,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,377,2026-05-12,-8.0,PE,365.0,0.32,471,0.8,96.26,59105.2625,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1320.0,1.17,469,1.24,96.58,37779.0,No upcoming events found.,No upcoming events found.,No news found.
+BAJFINANCE,Bajaj Finance Ltd.,Financial Services,925.95,862,2026-04-29,-21.0,CE,1050.0,0.62,468,0.7,97.71,67064.375,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4201,,,CE,4750.0,3.12,468,0.59,97.22,78796.925,No upcoming events found.,No upcoming events found.,No news found.
+SHREECEM,Shree Cement Ltd.,Construction Materials,24490.0,23702,2026-05-06,-14.0,CE,27000.0,18.7,467,0.77,97.63,60848.125,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,246,2026-04-28,-22.0,CE,295.0,0.19,466,0.8,97.27,58318.575,No upcoming events found.,No upcoming events found.,No news found.
+TECHM,Tech Mahindra Ltd.,Information Technology,1484.0,1436,2026-04-22,-28.0,PE,1280.0,0.78,465,0.54,97.35,86652.0,No upcoming events found.,No upcoming events found.,No news found.
+TECHM,Tech Mahindra Ltd.,Information Technology,1484.0,1459,2026-04-22,-28.0,CE,1680.0,0.78,465,0.71,98.37,65808.0,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,2900.0,2.32,464,0.67,97.73,69300.1,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,539,2026-05-13,-7.0,CE,690.0,0.56,464,0.42,97.58,109942.26875,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,517,2026-05-13,-7.0,PE,480.0,0.56,464,0.4,97.81,116582.51875,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,946,2026-04-24,-26.0,CE,1110.0,0.56,464,0.55,98.57,84281.5875,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4565,2026-05-02,-18.0,CE,4700.0,3.1,464,0.68,97.39,68594.175,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,915,2026-04-24,-26.0,PE,820.0,0.56,464,0.46,96.96,101680.8375,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,162.0,0.1,463,1.11,98.38,41697.33125,No upcoming events found.,No upcoming events found.,No news found.
+CHOLAFIN,Cholamandalam Investment and Finance Company Ltd.,Financial Services,1519.0,1404,2026-04-30,-20.0,CE,1800.0,0.74,460,0.48,98.55,95754.3125,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,548,2026-04-30,-20.0,CE,770.0,0.38,459,0.49,98.61,92839.4375,No upcoming events found.,No upcoming events found.,No news found.
+SHREECEM,Shree Cement Ltd.,Construction Materials,24490.0,23686,2026-05-06,-14.0,PE,20500.0,18.36,459,0.97,98.28,47267.875,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1060.0,0.61,459,0.72,97.53,63869.75,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,1802.3,1377,2026-04-30,-20.0,PE,1460.0,0.96,457,0.56,98.5,81315.0125,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,3080.0,2.29,457,0.81,98.63,56610.1,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,14500.0,9.11,455,0.51,98.04,88688.25,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,460.0,0.31,453,0.88,97.62,51231.7625,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,539,2026-05-13,-7.0,CE,700.0,0.55,453,0.42,98.62,107120.26875,No upcoming events found.,No upcoming events found.,No news found.
+HDFCLIFE,HDFC Life Insurance Company Ltd.,Financial Services,611.7,569,2026-04-16,-34.0,PE,550.0,0.41,453,0.66,96.38,68687.575,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,163,2026-04-23,-27.0,PE,140.0,0.1,453,0.49,96.95,91646.83875,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,455.0,0.31,453,0.84,97.07,53827.2625,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3440.0,2.26,452,0.68,97.09,66281.9,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3680.0,2.59,452,0.77,97.65,58585.625,No upcoming events found.,No upcoming events found.,No news found.
+KOTAKBANK,Kotak Mahindra Bank Ltd.,Financial Services,388.6,350,2026-05-02,-18.0,PE,340.0,0.23,450,0.65,97.71,68906.0,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,120,2026-05-18,-2.0,PE,118.0,0.09,450,0.65,97.08,69631.33125,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,161.0,0.09,450,1.04,98.33,43306.33125,No upcoming events found.,No upcoming events found.,No news found.
+APOLLOHOSP,Apollo Hospitals Enterprise Ltd.,Healthcare,8065.0,7366,2026-05-20,0.0,PE,7000.0,3.59,448,0.5,98.33,89781.9375,No upcoming events found.,No upcoming events found.,No news found.
+AMBUJACEM,Ambuja Cements Ltd.,Construction Materials,433.2,438,2026-05-04,-16.0,CE,495.0,0.43,446,0.4,97.34,111749.1375,No upcoming events found.,No upcoming events found.,No news found.
+IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,98.15,104,2026-05-14,-6.0,CE,116.0,0.11,446,0.98,97.63,45764.425,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,418,2026-05-19,-1.0,PE,360.0,0.31,445,0.79,97.53,56573.925,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,1802.3,1377,2026-04-30,-20.0,PE,1500.0,0.94,445,0.51,98.31,88117.2625,No upcoming events found.,No upcoming events found.,No news found.
+AXISBANK,Axis Bank Ltd.,Financial Services,1242.7,1255,2026-04-25,-25.0,CE,1370.0,0.71,445,0.59,97.08,75941.8125,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,512,2026-04-30,-20.0,PE,500.0,0.36,444,0.49,98.31,90879.9375,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,288,2026-05-19,-1.0,CE,370.0,0.23,444,1.22,98.66,36462.7,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,217,2026-04-28,-22.0,PE,215.0,0.18,442,0.55,97.85,81186.575,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1310.0,1.26,441,1.23,96.62,35798.35,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3660.0,2.51,439,0.73,97.3,59903.375,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3765,2026-05-14,-6.0,CE,5000.0,2.92,438,0.65,97.89,67672.625,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3765,2026-05-14,-6.0,CE,5050.0,2.9,435,0.67,98.13,65044.125,No upcoming events found.,No upcoming events found.,No news found.
+UNITDSPR,United Spirits Ltd.,Fast Moving Consumer Goods,1324.5,1227,2026-05-14,-6.0,CE,1460.0,1.09,435,0.85,96.72,51191.8,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5542,2026-05-07,-13.0,CE,6000.0,3.49,435,0.68,97.21,63920.1875,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7550.0,3.48,434,0.57,98.83,75872.0625,No upcoming events found.,No upcoming events found.,No news found.
+AMBUJACEM,Ambuja Cements Ltd.,Construction Materials,433.2,438,2026-05-04,-16.0,CE,500.0,0.41,433,0.39,97.23,109922.1375,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4201,,,CE,4800.0,2.89,433,0.57,97.62,76176.425,No upcoming events found.,No upcoming events found.,No news found.
+BAJFINANCE,Bajaj Finance Ltd.,Financial Services,925.95,862,2026-04-29,-21.0,CE,1060.0,0.58,431,0.67,98.13,64416.875,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1480.0,0.86,431,0.66,97.53,65263.25,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4565,2026-05-02,-18.0,CE,4750.0,2.86,429,0.65,97.52,65940.175,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,305,2026-05-15,-5.0,CE,332.5,0.23,427,0.82,97.82,52324.575,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3848,2026-04-22,-28.0,CE,4600.0,4.28,427,0.86,96.91,49604.05,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,205,2026-04-16,-34.0,CE,222.5,0.14,427,0.76,97.27,56126.775,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2303,2026-04-30,-20.0,PE,2100.0,2.14,427,0.56,96.6,76716.1,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5542,2026-05-07,-13.0,CE,6150.0,3.41,426,0.75,97.93,57014.9375,No upcoming events found.,No upcoming events found.,No news found.
+HYUNDAI,Hyundai Motor India Ltd.,Automobile and Auto Components,1779.0,1708,2026-05-08,-12.0,CE,2020.0,1.55,426,0.9,97.22,47290.7875,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4180,,,PE,3450.0,2.84,425,0.71,98.68,59534.925,No upcoming events found.,No upcoming events found.,No news found.
+GODREJCP,Godrej Consumer Products Ltd.,Fast Moving Consumer Goods,1027.8,1009,2026-05-12,-8.0,CE,1140.0,0.85,425,0.91,97.03,46452.0,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4180,,,PE,3700.0,2.84,425,0.58,97.12,73149.425,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,218,2026-04-17,-33.0,PE,205.0,0.18,423,0.3,97.17,143318.89250000002,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3460.0,2.11,422,0.65,97.25,64517.9,No upcoming events found.,No upcoming events found.,No news found.
+PFC,Power Finance Corporation Ltd.,Financial Services,430.8,418,2026-05-13,-7.0,CE,505.0,0.32,422,0.72,98.15,58308.9,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,119,2026-05-11,-9.0,PE,110.0,0.06,421,0.44,97.75,96197.625,No upcoming events found.,No upcoming events found.,No news found.
+BAJFINANCE,Bajaj Finance Ltd.,Financial Services,925.95,839,2026-04-29,-21.0,PE,830.0,0.56,421,0.55,96.79,76506.875,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1070.0,0.56,421,0.69,97.97,61184.75,No upcoming events found.,No upcoming events found.,No news found.
+AXISBANK,Axis Bank Ltd.,Financial Services,1242.7,1255,2026-04-25,-25.0,CE,1380.0,0.68,421,0.57,97.25,73685.0625,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,469,2026-04-27,-23.0,CE,530.0,0.31,421,0.8,98.19,52492.725,No upcoming events found.,No upcoming events found.,No news found.
+UNITDSPR,United Spirits Ltd.,Fast Moving Consumer Goods,1324.5,1227,2026-05-14,-6.0,CE,1470.0,1.05,420,0.84,96.99,49723.8,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,95,2026-05-05,-15.0,PE,88.0,0.05,420,0.47,97.44,89137.2,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1410.0,0.6,420,0.53,98.42,79518.95,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,262,2026-05-19,-1.0,PE,240.0,0.21,419,0.74,97.74,56836.55,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,661,2026-04-29,-21.0,PE,270.0,0.36,416,0.98,96.61,42486.75,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,163.0,0.09,414,1.05,98.57,39649.83125,No upcoming events found.,No upcoming events found.,No news found.
+JINDALSTEL,Jindal Steel Ltd.,Metals & Mining,1236.0,1145,2026-05-01,-19.0,CE,1400.0,0.66,414,0.52,98.46,79908.625,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1224,2026-05-12,-8.0,CE,1560.0,0.66,414,0.67,99.06,62189.25,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3765,2026-05-14,-6.0,CE,5100.0,2.75,412,0.66,98.43,62354.625,No upcoming events found.,No upcoming events found.,No news found.
+INDHOTEL,Indian Hotels Co. Ltd.,Consumer Services,658.65,586,2026-05-11,-9.0,PE,580.0,0.41,412,0.59,96.91,69509.25,No upcoming events found.,No upcoming events found.,No news found.
+HDFCLIFE,HDFC Life Insurance Company Ltd.,Financial Services,611.7,586,2026-04-16,-34.0,CE,680.0,0.38,412,0.67,97.8,61141.575,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7500.0,3.29,410,0.53,98.67,78137.8125,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3743,2026-05-14,-6.0,PE,3800.0,2.74,410,0.55,96.92,74896.625,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,195.0,0.09,409,0.63,98.67,65318.338749999995,No upcoming events found.,No upcoming events found.,No news found.
+VBL,Varun Beverages Ltd.,Fast Moving Consumer Goods,516.3,390,2026-04-30,-20.0,PE,460.0,0.36,407,0.59,96.42,68998.8125,No upcoming events found.,No upcoming events found.,No news found.
+NESTLEIND,Nestle India Ltd.,Fast Moving Consumer Goods,1449.0,1208,2026-04-21,-29.0,PE,1300.0,0.81,406,0.55,96.76,73389.75,No upcoming events found.,No upcoming events found.,No news found.
+PFC,Power Finance Corporation Ltd.,Financial Services,430.8,418,2026-05-13,-7.0,CE,500.0,0.31,406,0.67,97.81,60687.9,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1292,2026-04-23,-27.0,PE,1060.0,1.01,405,0.79,95.74,51103.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2100.0,1.31,405,0.43,98.26,94094.837,No upcoming events found.,No upcoming events found.,No news found.
+UNITDSPR,United Spirits Ltd.,Fast Moving Consumer Goods,1324.5,1227,2026-05-14,-6.0,CE,1480.0,1.01,405,0.84,97.58,47975.8,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1330.0,1.01,405,1.11,97.16,36347.0,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7400.0,3.24,404,0.49,98.62,82506.8125,No upcoming events found.,No upcoming events found.,No news found.
+IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,98.15,81,2026-05-14,-6.0,PE,80.0,0.1,403,0.88,98.6,46062.425,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,305,2026-05-15,-5.0,CE,330.0,0.21,403,0.75,97.69,54167.575,No upcoming events found.,No upcoming events found.,No news found.
+APOLLOHOSP,Apollo Hospitals Enterprise Ltd.,Healthcare,8065.0,7366,2026-05-20,0.0,PE,7100.0,3.23,403,0.43,98.09,94151.9375,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,305,2026-05-15,-5.0,CE,327.5,0.21,403,0.72,97.55,55820.575,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,415.0,0.29,402,1.06,99.03,37799.3,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4201,,,CE,4900.0,2.66,399,0.56,98.16,70898.925,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1211,2026-05-12,-8.0,PE,1160.0,0.64,398,0.53,97.9,74632.25,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,205,2026-04-16,-34.0,CE,225.0,0.13,397,0.74,97.7,53816.775,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7600.0,3.17,396,0.54,98.96,73733.3125,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4239,2026-05-08,-12.0,PE,3700.0,2.25,393,0.57,97.15,69545.4125,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1320.0,1.12,393,1.14,97.14,34545.35,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3720.0,2.25,393,0.7,97.89,56069.375,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6184,2026-05-08,-12.0,PE,5500.0,3.14,392,0.46,97.46,84933.0625,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3011,2026-05-05,-15.0,PE,2720.0,1.96,392,0.6,98.2,65095.9,No upcoming events found.,No upcoming events found.,No news found.
+DLF,DLF Ltd.,Realty,577.95,517,2026-05-13,-7.0,PE,500.0,0.48,391,0.32,96.86,122498.51875,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,845.0,0.71,391,0.92,96.15,42720.5125,No upcoming events found.,No upcoming events found.,No news found.
+TATASTEEL,Tata Steel Ltd.,Metals & Mining,211.13,206,2026-05-15,-5.0,CE,240.0,0.14,391,0.7,97.47,55714.5875,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3848,2026-04-22,-28.0,CE,4650.0,3.9,390,0.81,97.19,47865.05,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1211,2026-05-12,-8.0,PE,1170.0,0.62,390,0.51,97.68,76851.5,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,3000.0,1.95,390,0.63,98.32,62300.1,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3765,2026-05-14,-6.0,CE,5150.0,2.6,390,0.65,98.58,59758.125,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3700.0,2.23,389,0.68,97.79,57341.625,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4543,2026-05-02,-18.0,PE,3800.0,2.59,388,0.63,96.64,61979.675,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4201,,,CE,4850.0,2.59,388,0.53,97.89,73362.925,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,290.0,0.17,387,0.32,98.45,119677.8925,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1490.0,0.78,387,0.61,97.75,63498.25,No upcoming events found.,No upcoming events found.,No news found.
+PIDILITIND,Pidilite Industries Ltd.,Chemicals,1467.2,1284,2026-05-07,-13.0,PE,1260.0,0.78,387,0.61,98.3,63963.5,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,14000.0,7.73,386,0.48,98.42,79728.25,No upcoming events found.,No upcoming events found.,No news found.
+MOTHERSON,Samvardhana Motherson International Ltd.,Automobile and Auto Components,130.39,96,2026-05-20,0.0,PE,105.0,0.06,384,0.45,98.16,85461.4375,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJFINSV,Bajaj Finserv Ltd.,Financial Services,1762.6,1662,2026-04-30,-20.0,PE,1500.0,1.54,384,1.05,99.09,36707.125,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1090.0,0.51,384,0.69,98.32,55889.75,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1080.0,0.51,384,0.66,98.22,58537.25,No upcoming events found.,No upcoming events found.,No news found.
+TECHM,Tech Mahindra Ltd.,Information Technology,1484.0,1436,2026-04-22,-28.0,PE,1220.0,0.64,382,0.52,98.47,73782.0,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4253,2026-05-08,-12.0,CE,4600.0,2.19,382,0.53,97.61,72411.4125,No upcoming events found.,No upcoming events found.,No news found.
+AXISBANK,Axis Bank Ltd.,Financial Services,1242.7,1255,2026-04-25,-25.0,CE,1440.0,0.61,382,0.63,98.44,60435.5625,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,915,2026-04-24,-26.0,PE,800.0,0.46,381,0.4,97.83,95847.8375,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,239,2026-04-17,-33.0,CE,300.0,0.16,381,0.34,98.71,112627.8925,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,377,2026-05-12,-8.0,PE,360.0,0.26,380,0.67,96.92,56524.7625,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,465.0,0.26,380,0.78,97.77,48636.2625,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,14300.0,7.6,380,0.58,97.41,65648.5,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3304,2026-05-14,-6.0,CE,4100.0,1.38,378,0.47,99.02,79923.4125,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,725,2026-04-24,-26.0,CE,1060.0,0.84,376,0.95,98.62,39655.0625,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,436,2026-05-19,-1.0,CE,530.0,0.26,374,0.95,98.82,39473.925,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,692,2026-04-24,-26.0,PE,750.0,0.83,371,0.68,96.65,54761.5625,No upcoming events found.,No upcoming events found.,No news found.
+JSWSTEEL,JSW Steel Ltd.,Metals & Mining,1288.4,1126,2026-05-14,-6.0,PE,1100.0,0.55,371,0.18,98.62,202391.15,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5542,2026-05-07,-13.0,CE,6100.0,2.96,370,0.62,97.75,59417.6875,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,217,2026-04-28,-22.0,PE,212.5,0.15,369,0.47,98.21,78907.075,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,390.0,0.26,367,0.73,97.78,50147.3,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1224,2026-05-12,-8.0,CE,1480.0,0.59,367,0.46,98.17,79926.75,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1420.0,0.53,367,0.48,98.85,77033.95,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,395.0,0.26,367,0.77,98.25,47445.3,No upcoming events found.,No upcoming events found.,No news found.
+TECHM,Tech Mahindra Ltd.,Information Technology,1484.0,1436,2026-04-22,-28.0,PE,1240.0,0.61,367,0.47,97.89,78030.0,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1340.0,0.91,365,1.04,97.5,34963.0,No upcoming events found.,No upcoming events found.,No news found.
+BANKBARODA,Bank of Baroda,Financial Services,260.6,269,2026-05-08,-12.0,CE,320.0,0.12,365,0.7,99.02,52303.86875,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,200.0,0.08,365,0.63,98.92,58016.588749999995,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4565,2026-05-02,-18.0,CE,4800.0,2.42,363,0.57,97.99,63364.175,No upcoming events found.,No upcoming events found.,No news found.
+HDFCAMC,HDFC Asset Management Company Ltd.,Financial Services,2643.1,2398,2026-04-16,-34.0,CE,3000.0,1.21,363,0.43,98.15,84545.55,No upcoming events found.,No upcoming events found.,No news found.
+JSWSTEEL,JSW Steel Ltd.,Metals & Mining,1288.4,1141,2026-05-14,-6.0,CE,1440.0,0.54,362,0.17,98.66,214007.15,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3822,2026-04-22,-28.0,PE,3200.0,3.62,362,0.91,99.09,39841.05,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,707,2026-04-29,-21.0,CE,400.0,0.31,359,0.99,98.08,36300.25,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,661,2026-04-29,-21.0,PE,260.0,0.31,359,0.94,97.56,38404.25,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1224,2026-05-12,-8.0,CE,1500.0,0.58,359,0.48,98.35,75569.75,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1400.0,0.51,358,0.44,98.47,81996.95,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1380.0,0.51,358,0.41,97.82,86882.95,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1390.0,0.51,358,0.42,98.4,84411.95,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3520.0,1.79,357,0.59,97.83,60567.9,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1500.0,0.71,356,0.58,98.07,61728.25,No upcoming events found.,No upcoming events found.,No news found.
+PIDILITIND,Pidilite Industries Ltd.,Chemicals,1467.2,1284,2026-05-07,-13.0,PE,1320.0,0.71,356,0.48,97.51,74778.5,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1297,2026-04-24,-26.0,PE,1200.0,0.71,356,0.54,96.92,66273.25,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,692,2026-04-24,-26.0,PE,740.0,0.79,354,0.67,96.81,53069.0625,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,155.0,0.05,354,0.58,99.12,61098.125,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4253,2026-05-08,-12.0,CE,4750.0,2.02,354,0.56,98.25,63154.1625,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,469,2026-04-27,-23.0,CE,540.0,0.26,354,0.74,98.79,47673.725,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,164.0,0.07,353,0.91,98.61,38675.33125,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,120,2026-05-18,-2.0,PE,116.0,0.07,353,0.54,97.78,66023.58125,No upcoming events found.,No upcoming events found.,No news found.
+TECHM,Tech Mahindra Ltd.,Information Technology,1484.0,1436,2026-04-22,-28.0,PE,1200.0,0.59,352,0.51,98.55,69588.0,No upcoming events found.,No upcoming events found.,No news found.
+VBL,Varun Beverages Ltd.,Fast Moving Consumer Goods,516.3,390,2026-04-30,-20.0,PE,450.0,0.31,351,0.54,97.11,65028.3125,No upcoming events found.,No upcoming events found.,No news found.
+AXISBANK,Axis Bank Ltd.,Financial Services,1242.7,1255,2026-04-25,-25.0,CE,1400.0,0.56,351,0.51,97.95,69272.5625,No upcoming events found.,No upcoming events found.,No news found.
+IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,98.15,104,2026-05-14,-6.0,CE,118.0,0.08,350,0.82,97.99,42619.925,No upcoming events found.,No upcoming events found.,No news found.
+HINDUNILVR,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,2272.6,2092,2026-04-30,-20.0,CE,2500.0,1.16,348,0.53,97.66,65708.1,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1110.0,0.46,346,0.69,98.61,50624.75,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1100.0,0.46,346,0.65,98.4,53249.25,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4253,2026-05-08,-12.0,CE,4650.0,1.97,345,0.5,97.9,69310.4125,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1292,2026-04-23,-27.0,PE,1050.0,0.86,345,0.69,96.51,49655.0,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3740.0,1.97,345,0.63,98.13,54871.875,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3500.0,1.72,345,0.56,97.88,62035.9,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1786,2026-05-13,-7.0,PE,1720.0,0.72,344,0.39,97.89,87548.9125,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,1802.3,1377,2026-04-30,-20.0,PE,1400.0,0.72,344,0.48,98.76,71255.0125,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3760.0,1.96,343,0.64,98.26,53542.125,No upcoming events found.,No upcoming events found.,No news found.
+PFC,Power Finance Corporation Ltd.,Financial Services,430.8,418,2026-05-13,-7.0,CE,510.0,0.26,341,0.61,98.71,56046.9,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1430.0,0.49,341,0.46,98.65,74275.95,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,125.0,0.04,340,0.67,98.96,50977.2,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,946,2026-04-24,-26.0,CE,1120.0,0.41,340,0.42,98.74,81212.3375,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,946,2026-04-24,-26.0,CE,1150.0,0.41,340,0.47,98.99,72641.3375,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,126.0,0.04,340,0.7,99.0,48577.2,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4253,2026-05-08,-12.0,CE,4700.0,1.94,339,0.51,98.17,66247.9125,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4239,2026-05-08,-12.0,PE,3650.0,1.94,339,0.51,97.89,66335.9125,No upcoming events found.,No upcoming events found.,No news found.
+SIEMENS,Siemens Ltd.,Capital Goods,3586.1,3040,,,PE,3100.0,1.94,339,0.45,97.42,74812.4875,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1800,2026-05-13,-7.0,CE,2140.0,0.71,338,0.37,98.55,90845.4125,No upcoming events found.,No upcoming events found.,No news found.
+PIDILITIND,Pidilite Industries Ltd.,Chemicals,1467.2,1284,2026-05-07,-13.0,PE,1290.0,0.67,337,0.49,98.11,69203.5,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,184,2026-04-16,-34.0,PE,175.0,0.11,337,0.48,97.17,69896.775,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,850.0,0.61,336,0.81,96.88,41736.0125,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,759,2026-04-18,-32.0,PE,690.0,0.61,336,0.8,96.11,41922.5125,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,855.0,0.61,336,0.83,97.01,40724.0125,No upcoming events found.,No upcoming events found.,No news found.
+SIEMENS,Siemens Ltd.,Capital Goods,3586.1,3061,,,CE,4400.0,1.91,334,0.68,98.81,49085.2375,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4565,2026-05-02,-18.0,CE,4850.0,2.22,333,0.55,98.19,60656.675,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1470.0,0.48,332,0.52,98.74,64489.95,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2326,2026-04-30,-20.0,CE,3120.0,1.66,332,0.62,99.05,53892.1,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,305,2026-05-15,-5.0,CE,355.0,0.17,332,0.89,98.9,37276.575,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1440.0,0.48,332,0.46,98.7,72105.95,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1540.0,0.48,332,0.69,99.61,47885.95,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1510.0,0.66,331,0.55,98.25,59933.25,No upcoming events found.,No upcoming events found.,No news found.
+GODREJCP,Godrej Consumer Products Ltd.,Fast Moving Consumer Goods,1027.8,1009,2026-05-12,-8.0,CE,1150.0,0.66,331,0.74,97.76,44942.0,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,14400.0,6.6,330,0.52,97.84,63873.0,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,289,2026-05-14,-6.0,PE,325.0,0.41,330,0.91,95.47,36400.2,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,377,2026-05-12,-8.0,PE,350.0,0.23,326,0.64,98.11,51318.7625,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6184,2026-05-08,-12.0,PE,5400.0,2.6,325,0.4,98.24,80473.0625,No upcoming events found.,No upcoming events found.,No news found.
+KOTAKBANK,Kotak Mahindra Bank Ltd.,Financial Services,388.6,350,2026-05-02,-18.0,PE,320.0,0.16,324,0.59,98.19,55126.0,No upcoming events found.,No upcoming events found.,No news found.
+KOTAKBANK,Kotak Mahindra Bank Ltd.,Financial Services,388.6,367,2026-05-02,-18.0,CE,430.0,0.16,324,0.41,98.24,79246.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,1780.0,1.05,324,0.44,99.12,73527.7305,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3880.0,1.85,323,0.7,98.74,46125.625,No upcoming events found.,No upcoming events found.,No news found.
+HYUNDAI,Hyundai Motor India Ltd.,Automobile and Auto Components,1779.0,1678,2026-05-08,-12.0,PE,1600.0,1.17,323,0.62,96.27,52103.5375,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3848,2026-04-22,-28.0,CE,4700.0,3.24,323,0.7,97.67,46093.05,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,13500.0,6.46,323,0.46,98.76,70846.75,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7700.0,2.58,321,0.46,99.0,69309.5625,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,725,2026-04-24,-26.0,CE,1040.0,0.71,320,0.75,98.04,42795.5625,No upcoming events found.,No upcoming events found.,No news found.
+BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,288.35,262,2026-05-19,-1.0,PE,230.0,0.16,320,0.65,98.51,49351.05,No upcoming events found.,No upcoming events found.,No news found.
+JSWSTEEL,JSW Steel Ltd.,Metals & Mining,1288.4,1141,2026-05-14,-6.0,CE,1460.0,0.48,320,0.15,98.55,209086.9,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1211,2026-05-12,-8.0,PE,1150.0,0.51,320,0.44,98.11,72388.75,No upcoming events found.,No upcoming events found.,No news found.
+AXISBANK,Axis Bank Ltd.,Financial Services,1242.7,1255,2026-04-25,-25.0,CE,1420.0,0.51,320,0.49,98.28,64854.0625,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1330.0,0.91,319,0.96,97.54,33292.35,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,7800.0,2.55,318,0.49,99.25,64974.0625,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,865.0,0.58,316,0.82,97.42,38776.5125,No upcoming events found.,No upcoming events found.,No news found.
+TECHM,Tech Mahindra Ltd.,Information Technology,1484.0,1459,2026-04-22,-28.0,CE,1720.0,0.53,315,0.55,98.92,57630.0,No upcoming events found.,No upcoming events found.,No news found.
+UNITDSPR,United Spirits Ltd.,Fast Moving Consumer Goods,1324.5,1212,2026-05-14,-6.0,PE,1170.0,0.79,315,0.63,97.53,50391.8,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,405.0,0.23,315,0.74,98.74,42797.3,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4201,,,CE,5000.0,2.09,313,0.48,98.51,65653.925,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3765,2026-05-14,-6.0,CE,5200.0,2.09,313,0.55,98.71,57100.125,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10963,2026-04-27,-23.0,CE,12700.0,6.26,313,0.54,97.66,58388.25,No upcoming events found.,No upcoming events found.,No news found.
+APOLLOHOSP,Apollo Hospitals Enterprise Ltd.,Healthcare,8065.0,7366,2026-05-20,0.0,PE,6800.0,2.5,312,0.39,98.83,81041.9375,No upcoming events found.,No upcoming events found.,No news found.
+PIDILITIND,Pidilite Industries Ltd.,Chemicals,1467.2,1284,2026-05-07,-13.0,PE,1270.0,0.62,312,0.48,98.7,65708.5,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,14500.0,6.25,312,0.5,98.0,62105.5,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1350.0,0.78,310,0.92,97.81,33547.0,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3840.0,1.77,310,0.64,98.85,48507.875,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1120.0,0.41,309,0.64,98.8,48066.75,No upcoming events found.,No upcoming events found.,No news found.
+VBL,Varun Beverages Ltd.,Fast Moving Consumer Goods,516.3,390,2026-04-30,-20.0,PE,440.0,0.28,309,0.51,98.03,60730.5625,No upcoming events found.,No upcoming events found.,No news found.
+BAJFINANCE,Bajaj Finance Ltd.,Financial Services,925.95,839,2026-04-29,-21.0,PE,820.0,0.41,309,0.42,97.59,73858.875,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1022,2026-05-15,-5.0,PE,850.0,0.41,309,0.43,97.53,71496.75,No upcoming events found.,No upcoming events found.,No news found.
+TATASTEEL,Tata Steel Ltd.,Metals & Mining,211.13,206,2026-05-15,-5.0,CE,245.0,0.11,309,0.61,98.21,50820.0875,No upcoming events found.,No upcoming events found.,No news found.
+TATASTEEL,Tata Steel Ltd.,Metals & Mining,211.13,188,2026-05-15,-5.0,PE,190.0,0.11,309,0.47,96.94,65230.0875,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,759,2026-04-18,-32.0,PE,685.0,0.56,309,0.76,96.47,40933.0125,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,475.0,0.21,308,0.71,98.33,43605.2625,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,470.0,0.21,308,0.67,98.57,46113.2625,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,480.0,0.21,308,0.75,98.73,41052.7625,No upcoming events found.,No upcoming events found.,No news found.
+IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,98.15,104,2026-05-14,-6.0,CE,120.0,0.07,308,0.78,98.49,39644.925,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,13000.0,6.18,308,0.5,98.97,62097.25,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,305,2026-05-15,-5.0,CE,345.0,0.16,308,0.7,98.72,44040.575,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,305,2026-05-15,-5.0,CE,335.0,0.16,308,0.61,98.46,50671.575,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,305,2026-05-15,-5.0,CE,340.0,0.16,308,0.65,98.6,47346.575,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,305,2026-05-15,-5.0,CE,350.0,0.16,308,0.76,98.82,40734.575,No upcoming events found.,No upcoming events found.,No news found.
+HINDUNILVR,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,2272.6,2092,2026-04-30,-20.0,CE,2520.0,1.02,307,0.48,98.1,63569.1,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,205,2026-04-16,-34.0,CE,230.0,0.1,307,0.63,98.45,48536.775,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1520.0,0.61,306,0.53,98.43,58158.25,No upcoming events found.,No upcoming events found.,No news found.
+GODREJCP,Godrej Consumer Products Ltd.,Fast Moving Consumer Goods,1027.8,1009,2026-05-12,-8.0,CE,1160.0,0.61,306,0.71,97.74,43197.0,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3848,2026-04-22,-28.0,CE,4750.0,3.06,306,0.69,97.99,44329.05,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1340.0,0.88,306,0.96,97.83,32060.85,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2303,2026-04-30,-20.0,PE,2000.0,1.52,305,0.44,97.7,69694.1,No upcoming events found.,No upcoming events found.,No news found.
+HDFCAMC,HDFC Asset Management Company Ltd.,Financial Services,2643.1,2398,2026-04-16,-34.0,CE,3080.0,1.01,303,0.4,98.33,76112.55,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5528,2026-05-07,-13.0,PE,4800.0,2.43,303,0.47,98.72,64785.1875,No upcoming events found.,No upcoming events found.,No news found.
+SHREECEM,Shree Cement Ltd.,Construction Materials,24490.0,23686,2026-05-06,-14.0,PE,21000.0,12.12,303,0.59,97.7,51637.875,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1786,2026-05-13,-7.0,PE,1560.0,0.64,302,0.5,99.0,60906.6625,No upcoming events found.,No upcoming events found.,No news found.
+HDFCLIFE,HDFC Life Insurance Company Ltd.,Financial Services,611.7,586,2026-04-16,-34.0,CE,690.0,0.28,302,0.53,98.26,57027.575,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4201,,,CE,5100.0,2.01,301,0.5,98.92,60390.425,No upcoming events found.,No upcoming events found.,No news found.
+ADANIGREEN,Adani Green Energy Ltd.,Power,1424.9,906,2026-04-24,-26.0,PE,900.0,0.5,300,0.32,99.39,94591.5,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3860.0,1.71,299,0.63,98.78,47301.625,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4565,2026-05-02,-18.0,CE,4900.0,1.99,298,0.51,98.99,57975.675,No upcoming events found.,No upcoming events found.,No news found.
+MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2458.8,2303,2026-04-30,-20.0,PE,1960.0,1.49,297,0.45,98.85,66502.1,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,400.0,0.21,297,0.66,98.33,45219.3,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4565,2026-05-02,-18.0,CE,5200.0,1.98,296,0.7,99.14,42468.675,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4253,2026-05-08,-12.0,CE,4800.0,1.69,295,0.49,98.74,60075.9125,No upcoming events found.,No upcoming events found.,No news found.
+ADANIPOWER,Adani Power Ltd.,Power,220.96,154,2026-04-29,-21.0,PE,170.0,0.08,292,0.32,98.34,92923.525,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,314,2026-05-14,-6.0,CE,400.0,0.36,290,0.93,96.2,31240.2,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1786,2026-05-13,-7.0,PE,1700.0,0.61,290,0.35,98.24,84181.4125,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,289,2026-05-14,-6.0,PE,320.0,0.36,290,0.83,96.22,34928.2,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1800,2026-05-13,-7.0,CE,2120.0,0.61,290,0.31,98.43,94237.4125,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1224,2026-05-12,-8.0,CE,1490.0,0.46,289,0.37,98.4,77720.5,No upcoming events found.,No upcoming events found.,No news found.
+AXISBANK,Axis Bank Ltd.,Financial Services,1242.7,1255,2026-04-25,-25.0,CE,1410.0,0.46,289,0.43,98.05,66935.3125,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1460.0,0.41,288,0.43,98.79,67212.95,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1450.0,0.41,288,0.41,98.86,69662.95,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1480.0,0.41,288,0.46,98.99,62291.95,No upcoming events found.,No upcoming events found.,No news found.
+HDFCLIFE,HDFC Life Insurance Company Ltd.,Financial Services,611.7,586,2026-04-16,-34.0,CE,700.0,0.26,288,0.54,98.39,53408.575,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3848,2026-04-22,-28.0,CE,4800.0,2.89,288,0.68,98.11,42583.05,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,759,2026-04-18,-32.0,PE,680.0,0.53,288,0.72,96.82,39948.5125,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,160.0,0.04,286,0.57,99.38,50500.125,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,469,2026-04-27,-23.0,CE,550.0,0.21,286,0.67,99.11,42894.725,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,455,2026-04-27,-23.0,PE,410.0,0.21,286,0.48,96.81,59283.225,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1786,2026-05-13,-7.0,PE,1600.0,0.6,285,0.42,98.62,67266.6625,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3743,2026-05-14,-6.0,PE,3700.0,1.9,285,0.41,97.84,69488.125,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5542,2026-05-07,-13.0,CE,6200.0,2.29,285,0.52,98.38,55049.6875,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1292,2026-04-23,-27.0,PE,1040.0,0.71,284,0.59,97.11,48119.0,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4565,2026-05-02,-18.0,CE,5100.0,1.89,283,0.6,98.83,47516.675,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1297,2026-04-24,-26.0,PE,1180.0,0.56,281,0.45,97.67,62308.25,No upcoming events found.,No upcoming events found.,No news found.
+TATASTEEL,Tata Steel Ltd.,Metals & Mining,211.13,188,2026-05-15,-5.0,PE,187.5,0.1,281,0.45,97.54,62865.0875,No upcoming events found.,No upcoming events found.,No news found.
+BAJFINANCE,Bajaj Finance Ltd.,Financial Services,925.95,862,2026-04-29,-21.0,CE,1080.0,0.38,281,0.48,98.61,59053.875,No upcoming events found.,No upcoming events found.,No news found.
+MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,3307.7,3278,2026-05-14,-6.0,PE,2700.0,1.02,281,0.28,98.57,99539.4125,No upcoming events found.,No upcoming events found.,No news found.
+TATASTEEL,Tata Steel Ltd.,Metals & Mining,211.13,188,2026-05-15,-5.0,PE,185.0,0.1,281,0.47,97.69,60500.0875,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,860.0,0.51,281,0.71,97.31,39761.0125,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,870.0,0.51,281,0.75,97.69,37787.0125,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10963,2026-04-27,-23.0,CE,12800.0,5.61,280,0.5,98.0,56609.25,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3960.0,1.6,280,0.68,99.1,41103.125,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4180,,,PE,3600.0,1.86,279,0.41,98.29,67709.925,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJFINSV,Bajaj Finserv Ltd.,Financial Services,1762.6,1662,2026-04-30,-20.0,PE,1400.0,1.11,278,1.0,99.31,27895.125,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12675,2026-04-28,-22.0,PE,11600.0,5.56,278,0.44,97.77,62811.0,No upcoming events found.,No upcoming events found.,No news found.
+PFC,Power Finance Corporation Ltd.,Financial Services,430.8,418,2026-05-13,-7.0,CE,520.0,0.21,276,0.54,99.05,51470.9,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3800.0,1.58,275,0.54,98.56,50994.375,No upcoming events found.,No upcoming events found.,No news found.
+GODREJCP,Godrej Consumer Products Ltd.,Fast Moving Consumer Goods,1027.8,1009,2026-05-12,-8.0,CE,1180.0,0.55,275,0.69,98.96,39647.0,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,512,2026-04-30,-20.0,PE,460.0,0.23,275,0.38,99.14,73325.1875,No upcoming events found.,No upcoming events found.,No news found.
+PIDILITIND,Pidilite Industries Ltd.,Chemicals,1467.2,1284,2026-05-07,-13.0,PE,1280.0,0.55,275,0.41,98.48,67458.5,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,1900.0,0.89,274,0.38,99.06,71932.637,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1224,2026-05-12,-8.0,CE,1540.0,0.44,273,0.41,98.61,66726.75,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,14700.0,5.47,273,0.47,98.25,58563.5,No upcoming events found.,No upcoming events found.,No news found.
+AXISBANK,Axis Bank Ltd.,Financial Services,1242.7,1255,2026-04-25,-25.0,CE,1470.0,0.44,273,0.51,98.85,53885.0625,No upcoming events found.,No upcoming events found.,No news found.
+HINDUNILVR,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,2272.6,2092,2026-04-30,-20.0,CE,2540.0,0.91,273,0.45,98.2,61427.1,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,217,2026-04-28,-22.0,PE,210.0,0.11,272,0.36,98.56,76724.825,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4565,2026-05-02,-18.0,CE,4950.0,1.81,271,0.49,98.68,55380.675,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1022,2026-05-15,-5.0,PE,840.0,0.36,271,0.4,97.69,68759.75,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1140.0,0.36,271,0.63,98.9,43057.25,No upcoming events found.,No upcoming events found.,No news found.
+CIPLA,Cipla Ltd.,Healthcare,1419.0,1192,2026-05-13,-7.0,PE,1260.0,0.72,271,0.54,97.26,50132.625,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1130.0,0.36,271,0.6,98.98,45517.25,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,14600.0,5.41,270,0.45,98.23,60315.5,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4565,2026-05-02,-18.0,CE,5000.0,1.8,270,0.51,98.88,52773.675,No upcoming events found.,No upcoming events found.,No news found.
+UNITDSPR,United Spirits Ltd.,Fast Moving Consumer Goods,1324.5,1227,2026-05-14,-6.0,CE,1500.0,0.68,270,0.59,98.11,45467.8,No upcoming events found.,No upcoming events found.,No news found.
+PIDILITIND,Pidilite Industries Ltd.,Chemicals,1467.2,1297,2026-05-07,-13.0,CE,1660.0,0.54,268,0.44,98.88,61068.5,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,168.0,0.06,268,0.82,99.03,32678.83125,No upcoming events found.,No upcoming events found.,No news found.
+CIPLA,Cipla Ltd.,Healthcare,1419.0,1192,2026-05-13,-7.0,PE,1270.0,0.71,267,0.52,96.98,51497.875,No upcoming events found.,No upcoming events found.,No news found.
+CIPLA,Cipla Ltd.,Healthcare,1419.0,1192,2026-05-13,-7.0,PE,1240.0,0.71,267,0.56,98.22,47290.625,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1224,2026-05-12,-8.0,CE,1520.0,0.43,265,0.37,98.88,71057.5,No upcoming events found.,No upcoming events found.,No news found.
+IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,98.15,81,2026-05-14,-6.0,PE,84.0,0.06,265,0.51,97.57,52181.925,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1360.0,0.66,265,0.82,98.11,32159.0,No upcoming events found.,No upcoming events found.,No news found.
+JIOFIN,Jio Financial Services Ltd.,Financial Services,234.35,218,2026-04-17,-33.0,PE,200.0,0.11,264,0.19,97.88,139135.39250000002,No upcoming events found.,No upcoming events found.,No news found.
+NESTLEIND,Nestle India Ltd.,Fast Moving Consumer Goods,1449.0,1228,2026-04-21,-29.0,CE,1600.0,0.53,262,0.39,98.67,67324.75,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1520.0,0.38,262,0.5,99.37,52575.95,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3765,2026-05-14,-6.0,CE,5300.0,1.75,262,0.51,98.96,51901.625,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,128.0,0.03,260,0.59,99.25,43937.2,No upcoming events found.,No upcoming events found.,No news found.
+PNB,Punjab National Bank,Financial Services,101.1,115,2026-05-05,-15.0,CE,130.0,0.03,260,0.48,99.29,53865.8,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3900.0,1.49,260,0.58,99.04,44802.875,No upcoming events found.,No upcoming events found.,No news found.
+SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,929.0,946,2026-04-24,-26.0,CE,1200.0,0.31,257,0.44,99.15,58715.0875,No upcoming events found.,No upcoming events found.,No news found.
+AXISBANK,Axis Bank Ltd.,Financial Services,1242.7,1255,2026-04-25,-25.0,CE,1450.0,0.41,257,0.44,98.75,58198.0625,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1211,2026-05-12,-8.0,PE,1140.0,0.41,257,0.37,98.45,70076.75,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3822,2026-04-22,-28.0,PE,3300.0,2.58,257,0.6,98.8,43235.05,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1297,2026-04-24,-26.0,PE,1160.0,0.51,256,0.43,98.01,59113.25,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1530.0,0.51,256,0.45,98.59,56363.25,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10963,2026-04-27,-23.0,CE,12900.0,5.14,256,0.47,98.18,54840.25,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,120,2026-05-18,-2.0,PE,110.0,0.05,255,0.46,98.37,55104.33125,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1350.0,0.72,253,0.82,98.2,30832.35,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1237,2026-04-18,-32.0,CE,1500.0,0.36,253,0.44,99.13,57398.95,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,455,2026-04-27,-23.0,PE,365.0,0.19,253,0.67,99.31,37872.725,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,3920.0,1.44,251,0.58,99.1,43312.125,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,289,2026-05-14,-6.0,PE,310.0,0.31,250,0.78,97.08,32080.2,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,314,2026-05-14,-6.0,CE,405.0,0.31,250,0.84,97.25,29816.2,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,289,2026-05-14,-6.0,PE,315.0,0.31,250,0.75,96.89,33496.2,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1370.0,0.62,250,0.82,98.52,30671.0,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4253,2026-05-08,-12.0,CE,4900.0,1.43,249,0.46,99.05,53944.1625,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1786,2026-05-13,-7.0,PE,1660.0,0.53,249,0.32,98.76,77512.6625,No upcoming events found.,No upcoming events found.,No news found.
+CIPLA,Cipla Ltd.,Healthcare,1419.0,1192,2026-05-13,-7.0,PE,1250.0,0.66,248,0.51,97.51,48823.625,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4253,2026-05-08,-12.0,CE,4850.0,1.41,247,0.44,99.03,56737.1625,No upcoming events found.,No upcoming events found.,No news found.
+HINDUNILVR,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,2272.6,2092,2026-04-30,-20.0,CE,2560.0,0.83,247,0.42,99.0,59330.1,No upcoming events found.,No upcoming events found.,No news found.
+HDFCLIFE,HDFC Life Insurance Company Ltd.,Financial Services,611.7,569,2026-04-16,-34.0,PE,530.0,0.23,247,0.41,98.16,60415.575,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,8400.0,1.98,246,0.44,99.57,55919.59375,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3765,2026-05-14,-6.0,CE,5400.0,1.64,245,0.52,99.25,46849.625,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1380.0,0.61,244,0.83,98.47,29463.0,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,661,2026-04-29,-21.0,PE,250.0,0.21,244,0.71,98.44,34276.25,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1292,2026-04-23,-27.0,PE,1030.0,0.61,244,0.53,97.7,46627.0,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENSOL,Adani Energy Solutions Ltd.,Power,1335.6,929,2026-04-23,-27.0,PE,900.0,0.36,244,0.09,99.81,277884.75625,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,208.0,0.05,243,0.72,99.87,33978.871875,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1786,2026-05-13,-7.0,PE,1680.0,0.51,243,0.3,98.45,80861.4125,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3848,2026-04-22,-28.0,CE,4900.0,2.42,242,0.62,98.56,39048.05,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,4020.0,1.39,242,0.65,99.39,37435.125,No upcoming events found.,No upcoming events found.,No news found.
+AXISBANK,Axis Bank Ltd.,Financial Services,1242.7,1255,2026-04-25,-25.0,CE,1460.0,0.39,242,0.43,98.8,56035.0625,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1211,2026-05-12,-8.0,PE,1110.0,0.39,242,0.38,99.02,63207.25,No upcoming events found.,No upcoming events found.,No news found.
+TATASTEEL,Tata Steel Ltd.,Metals & Mining,211.13,188,2026-05-15,-5.0,PE,175.0,0.09,240,0.47,98.28,50764.5875,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10943,2026-04-27,-23.0,PE,9900.0,4.81,240,0.5,98.6,48594.75,No upcoming events found.,No upcoming events found.,No news found.
+VBL,Varun Beverages Ltd.,Fast Moving Consumer Goods,516.3,417,2026-04-30,-20.0,CE,580.0,0.21,239,0.38,98.64,62552.5625,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,725,2026-04-24,-26.0,CE,1100.0,0.53,236,0.71,98.8,33508.0625,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,490.0,0.16,235,0.65,98.85,36007.2625,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3560.0,1.18,235,0.41,98.52,57577.9,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,485.0,0.16,235,0.61,98.79,38530.2625,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,500.0,0.16,235,0.74,99.24,31700.2625,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1211,2026-05-12,-8.0,PE,1100.0,0.38,234,0.38,98.9,61276.25,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1150.0,0.31,234,0.58,99.18,40687.25,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1160.0,0.31,234,0.61,99.21,38384.75,No upcoming events found.,No upcoming events found.,No news found.
+HAL,Hindustan Aeronautics Ltd.,Capital Goods,4333.0,3743,2026-05-14,-6.0,PE,3500.0,1.56,234,0.4,98.78,58900.625,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10963,2026-04-27,-23.0,CE,13000.0,4.66,233,0.44,98.31,53041.25,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,895.0,0.43,233,0.71,98.21,32705.0125,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4180,,,PE,3500.0,1.55,232,0.37,98.79,62448.425,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,210.0,0.05,232,0.41,99.42,56382.633125,No upcoming events found.,No upcoming events found.,No news found.
+UNIONBANK,Union Bank of India,Financial Services,160.01,186,2026-04-23,-27.0,CE,205.0,0.05,232,0.46,99.25,50759.588749999995,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5528,2026-05-07,-13.0,PE,4900.0,1.86,232,0.34,97.86,69340.1875,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1560.0,0.46,231,0.45,98.94,51078.25,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1540.0,0.46,231,0.42,98.75,54568.25,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12675,2026-04-28,-22.0,PE,11500.0,4.62,231,0.38,98.0,60982.0,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1550.0,0.46,231,0.44,98.9,52843.25,No upcoming events found.,No upcoming events found.,No news found.
+BEL,Bharat Electronics Ltd.,Capital Goods,427.9,418,2026-05-19,-1.0,PE,340.0,0.16,231,0.5,98.94,46755.425,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,692,2026-04-24,-26.0,PE,720.0,0.51,230,0.46,97.56,49896.5625,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4201,,,CE,5200.0,1.52,228,0.41,99.2,55175.425,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,420.0,0.16,227,0.64,99.21,35601.3,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1390.0,0.65,227,0.88,98.53,25921.35,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3620.0,1.14,227,0.43,98.83,53225.9,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,430.0,0.16,227,0.73,99.28,30981.3,No upcoming events found.,No upcoming events found.,No news found.
+RECLTD,REC Ltd.,Financial Services,335.8,338,2026-04-28,-22.0,CE,410.0,0.16,227,0.56,98.8,40389.3,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,880.0,0.41,226,0.63,98.02,35834.5125,No upcoming events found.,No upcoming events found.,No news found.
+TATASTEEL,Tata Steel Ltd.,Metals & Mining,211.13,188,2026-05-15,-5.0,PE,180.0,0.08,226,0.41,98.11,55577.5875,No upcoming events found.,No upcoming events found.,No news found.
+INDHOTEL,Indian Hotels Co. Ltd.,Consumer Services,658.65,602,2026-05-11,-9.0,CE,760.0,0.23,225,0.41,98.79,54559.25,No upcoming events found.,No upcoming events found.,No news found.
+KOTAKBANK,Kotak Mahindra Bank Ltd.,Financial Services,388.6,367,2026-05-02,-18.0,CE,435.0,0.11,225,0.3,99.52,75486.0,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3822,2026-04-22,-28.0,PE,3600.0,2.25,225,0.42,97.16,53934.05,No upcoming events found.,No upcoming events found.,No news found.
+KOTAKBANK,Kotak Mahindra Bank Ltd.,Financial Services,388.6,350,2026-05-02,-18.0,PE,300.0,0.11,225,0.55,99.34,41006.0,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1292,2026-04-23,-27.0,PE,1020.0,0.56,225,0.5,97.63,45167.0,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1292,2026-04-23,-27.0,PE,1010.0,0.56,225,0.51,97.88,43739.0,No upcoming events found.,No upcoming events found.,No news found.
+KOTAKBANK,Kotak Mahindra Bank Ltd.,Financial Services,388.6,350,2026-05-02,-18.0,PE,310.0,0.11,225,0.47,98.78,48026.0,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,217,2026-04-28,-22.0,PE,205.0,0.09,224,0.31,98.94,72408.575,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,2000.0,0.72,224,0.27,99.1,82738.637,No upcoming events found.,No upcoming events found.,No news found.
+AMBUJACEM,Ambuja Cements Ltd.,Construction Materials,433.2,438,2026-05-04,-16.0,CE,520.0,0.21,223,0.22,98.9,102247.1375,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,14800.0,4.46,223,0.39,98.64,56783.5,No upcoming events found.,No upcoming events found.,No news found.
+CIPLA,Cipla Ltd.,Healthcare,1419.0,1192,2026-05-13,-7.0,PE,1220.0,0.59,220,0.49,98.35,44668.625,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1800,2026-05-13,-7.0,CE,2160.0,0.46,219,0.25,98.74,87510.6625,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,759,2026-04-18,-32.0,PE,620.0,0.4,219,0.78,98.84,28107.0125,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,455,2026-04-27,-23.0,PE,380.0,0.16,219,0.49,98.67,44932.725,No upcoming events found.,No upcoming events found.,No news found.
+CANBK,Canara Bank,Financial Services,126.11,143,2026-05-11,-9.0,CE,164.0,0.03,219,0.38,99.59,58098.9375,No upcoming events found.,No upcoming events found.,No news found.
+NESTLEIND,Nestle India Ltd.,Fast Moving Consumer Goods,1449.0,1208,2026-04-21,-29.0,PE,1200.0,0.44,218,0.39,98.61,55469.75,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1380.0,0.62,218,0.8,98.67,27220.35,No upcoming events found.,No upcoming events found.,No news found.
+ICICIBANK,ICICI Bank Ltd.,Financial Services,1240.9,1224,2026-04-18,-32.0,PE,1100.0,0.31,218,0.27,98.27,80610.95,No upcoming events found.,No upcoming events found.,No news found.
+SIEMENS,Siemens Ltd.,Capital Goods,3586.1,3040,,,PE,3000.0,1.25,218,0.32,98.97,68448.9875,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,8000.0,1.74,217,0.38,99.4,56527.5625,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,205,2026-04-16,-34.0,CE,235.0,0.07,217,0.5,98.85,43676.775,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,184,2026-04-16,-34.0,PE,172.5,0.07,217,0.32,97.96,67166.775,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4253,2026-05-08,-12.0,CE,5000.0,1.24,216,0.45,99.14,47928.6625,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,1760.0,0.7,216,0.3,99.4,71377.7305,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10963,2026-04-27,-23.0,CE,13200.0,4.3,215,0.43,98.69,49483.75,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,8500.0,1.71,214,0.4,99.57,53012.34375,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1360.0,0.61,214,0.73,98.46,29453.35,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,305,2026-05-15,-5.0,CE,360.0,0.11,213,0.63,99.38,34103.575,No upcoming events found.,No upcoming events found.,No news found.
+POWERGRID,Power Grid Corporation of India Ltd.,Power,297.4,305,2026-05-15,-5.0,CE,365.0,0.11,213,0.69,99.44,31063.575,No upcoming events found.,No upcoming events found.,No news found.
+INDHOTEL,Indian Hotels Co. Ltd.,Consumer Services,658.65,586,2026-05-11,-9.0,PE,550.0,0.21,212,0.36,98.48,58469.25,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3822,2026-04-22,-28.0,PE,3400.0,2.12,212,0.45,97.83,46743.05,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3720.0,1.06,212,0.46,99.51,46323.9,No upcoming events found.,No upcoming events found.,No news found.
+PFC,Power Finance Corporation Ltd.,Financial Services,430.8,418,2026-05-13,-7.0,CE,530.0,0.16,211,0.45,99.37,46933.9,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4180,,,PE,3400.0,1.4,210,0.37,98.68,57182.925,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,314,2026-05-14,-6.0,CE,410.0,0.26,210,0.74,97.46,28344.2,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4239,2026-05-08,-12.0,PE,3600.0,1.2,210,0.33,98.62,63190.4125,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3822,2026-04-22,-28.0,PE,3500.0,2.1,210,0.42,97.52,50434.05,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,289,2026-05-14,-6.0,PE,300.0,0.26,210,0.72,97.36,29256.2,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,289,2026-05-14,-6.0,PE,305.0,0.26,210,0.69,97.64,30656.2,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1800,2026-05-13,-7.0,CE,2240.0,0.44,207,0.28,99.19,74120.9125,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,170.0,0.04,207,0.68,99.22,30631.58125,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1022,2026-05-15,-5.0,PE,820.0,0.28,206,0.33,98.64,63419.25,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1600.0,0.41,206,0.47,99.16,44098.25,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1580.0,0.41,206,0.43,99.1,47573.25,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1570.0,0.41,206,0.42,98.97,49308.25,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,905.0,0.38,206,0.67,98.64,30791.0125,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,759,2026-04-18,-32.0,PE,660.0,0.38,206,0.57,97.83,35988.5125,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,759,2026-04-18,-32.0,PE,650.0,0.38,206,0.61,97.95,33876.0125,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,4000.0,1.17,205,0.53,99.04,38847.625,No upcoming events found.,No upcoming events found.,No news found.
+SOLARINDS,Solar Industries India Ltd.,Chemicals,18299.0,13291,2026-05-15,-5.0,PE,11000.0,4.11,205,0.41,99.33,49737.875,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1292,2026-04-23,-27.0,PE,1000.0,0.51,204,0.48,98.11,42323.0,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4253,2026-05-08,-12.0,CE,5150.0,1.16,203,0.52,99.65,39490.1625,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,184,2026-04-16,-34.0,PE,160.0,0.07,202,0.38,98.8,53756.775,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3680.0,1.01,202,0.41,99.14,49283.9,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4253,2026-05-08,-12.0,CE,4950.0,1.15,201,0.4,99.0,50909.6625,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,8200.0,1.61,201,0.41,99.52,48642.5625,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1786,2026-05-13,-7.0,PE,1620.0,0.43,201,0.29,99.1,70586.6625,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,217,2026-04-28,-22.0,PE,200.0,0.08,200,0.29,99.2,68188.575,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,900.0,0.36,199,0.62,98.6,31913.0125,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,14900.0,3.99,199,0.36,98.85,55006.0,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5542,2026-05-07,-13.0,CE,6300.0,1.59,198,0.39,99.18,50547.1875,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1180.0,0.26,196,0.57,99.39,34267.25,No upcoming events found.,No upcoming events found.,No news found.
+SBILIFE,SBI Life Insurance Company Ltd.,Financial Services,1883.0,1843,2026-04-22,-28.0,CE,2100.0,0.53,196,0.31,98.5,62828.75,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1170.0,0.26,196,0.54,99.24,36224.25,No upcoming events found.,No upcoming events found.,No news found.
+CIPLA,Cipla Ltd.,Healthcare,1419.0,1208,2026-05-13,-7.0,CE,1600.0,0.53,196,0.4,98.62,49525.625,No upcoming events found.,No upcoming events found.,No news found.
+ADANIENT,Adani Enterprises Ltd.,Metals & Mining,2756.1,1889,2026-04-30,-20.0,PE,1700.0,0.64,196,0.3,99.65,64983.730500000005,No upcoming events found.,No upcoming events found.,No news found.
+BAJFINANCE,Bajaj Finance Ltd.,Financial Services,925.95,839,2026-04-29,-21.0,PE,800.0,0.26,196,0.29,98.48,68391.375,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,205,2026-04-16,-34.0,CE,240.0,0.07,195,0.5,99.33,39326.775,No upcoming events found.,No upcoming events found.,No news found.
+BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,1924.8,1786,2026-05-13,-7.0,PE,1640.0,0.41,195,0.26,98.93,74096.6625,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,184,2026-04-16,-34.0,PE,165.0,0.07,195,0.33,98.88,59006.775,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3640.0,0.96,192,0.37,99.0,51827.9,No upcoming events found.,No upcoming events found.,No news found.
+HINDUNILVR,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,2272.6,2077,2026-04-30,-20.0,PE,1900.0,0.64,191,0.36,98.53,53669.1,No upcoming events found.,No upcoming events found.,No news found.
+INDIGO,InterGlobe Aviation Ltd.,Services,4279.2,4201,,,CE,5300.0,1.26,189,0.38,99.24,50000.925,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5542,2026-05-07,-13.0,CE,6400.0,1.51,189,0.41,99.4,46119.9375,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,8100.0,1.51,189,0.36,99.5,52474.5625,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1420.0,0.54,188,0.83,98.82,22621.35,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1410.0,0.54,188,0.79,98.79,23685.35,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,15400.0,3.76,188,0.41,99.16,46193.5,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,15100.0,3.75,187,0.36,99.02,51453.0,No upcoming events found.,No upcoming events found.,No news found.
+WIPRO,Wipro Ltd.,Information Technology,196.47,184,2026-04-16,-34.0,PE,170.0,0.06,187,0.29,98.51,64406.775,No upcoming events found.,No upcoming events found.,No news found.
+HINDUNILVR,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,2272.6,2077,2026-04-30,-20.0,PE,2000.0,0.62,187,0.29,98.5,64127.1,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,661,2026-04-29,-21.0,PE,240.0,0.16,186,0.62,98.93,30078.75,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,707,2026-04-29,-21.0,CE,420.0,0.16,186,0.66,98.93,28376.75,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1400.0,0.46,185,0.69,98.88,26879.0,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,4200.0,1.06,185,0.65,99.43,28505.125,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJFINSV,Bajaj Finserv Ltd.,Financial Services,1762.6,1662,2026-04-30,-20.0,PE,1580.0,0.74,184,0.42,97.72,43855.125,No upcoming events found.,No upcoming events found.,No news found.
+VBL,Varun Beverages Ltd.,Fast Moving Consumer Goods,516.3,417,2026-04-30,-20.0,CE,585.0,0.16,182,0.3,99.06,60494.0625,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1297,2026-04-24,-26.0,PE,1100.0,0.36,181,0.37,98.65,48503.25,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1620.0,0.36,181,0.45,99.3,40693.25,No upcoming events found.,No upcoming events found.,No news found.
+GODREJCP,Godrej Consumer Products Ltd.,Fast Moving Consumer Goods,1027.8,1009,2026-05-12,-8.0,CE,1200.0,0.36,181,0.5,98.9,36122.0,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,4100.0,1.02,179,0.54,99.28,33249.375,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1390,2026-04-24,-26.0,PE,1060.0,0.51,179,0.4,96.87,44919.85,No upcoming events found.,No upcoming events found.,No news found.
+ABB,ABB India Ltd.,Capital Goods,6330.0,6210,2026-05-08,-12.0,CE,8700.0,1.43,178,0.37,99.69,48264.84375,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,915.0,0.32,178,0.62,99.05,28877.0125,No upcoming events found.,No upcoming events found.,No news found.
+HDFCLIFE,HDFC Life Insurance Company Ltd.,Financial Services,611.7,586,2026-04-16,-34.0,CE,720.0,0.16,178,0.39,99.07,45653.575,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3600.0,0.89,177,0.32,99.08,54845.9,No upcoming events found.,No upcoming events found.,No news found.
+HYUNDAI,Hyundai Motor India Ltd.,Automobile and Auto Components,1779.0,1708,2026-05-08,-12.0,CE,2160.0,0.64,175,0.52,98.99,33719.2875,No upcoming events found.,No upcoming events found.,No news found.
+INDHOTEL,Indian Hotels Co. Ltd.,Consumer Services,658.65,586,2026-05-11,-9.0,PE,510.0,0.17,175,0.39,99.01,44639.25,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4253,2026-05-08,-12.0,CE,5100.0,0.99,172,0.41,99.4,42146.9125,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,4160.0,0.99,172,0.57,99.53,30076.125,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,910.0,0.31,171,0.57,98.85,29944.0125,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1292,2026-04-23,-27.0,PE,960.0,0.43,170,0.46,98.77,36615.0,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,15000.0,3.35,167,0.31,99.0,53228.5,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1460.0,0.48,166,0.88,99.44,18984.35,No upcoming events found.,No upcoming events found.,No news found.
+AXISBANK,Axis Bank Ltd.,Financial Services,1242.7,1235,2026-04-25,-25.0,PE,1100.0,0.26,164,0.22,98.82,73710.3125,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,692,2026-04-24,-26.0,PE,700.0,0.36,163,0.35,98.25,46629.5625,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,520.0,0.11,163,0.66,99.36,24885.7625,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,394,2026-05-12,-8.0,CE,510.0,0.11,163,0.59,99.3,27756.2625,No upcoming events found.,No upcoming events found.,No news found.
+TATAPOWER,Tata Power Co. Ltd.,Power,408.95,377,2026-05-12,-8.0,PE,330.0,0.11,163,0.4,99.32,41038.7625,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJFINSV,Bajaj Finserv Ltd.,Financial Services,1762.6,1678,2026-04-30,-20.0,CE,1940.0,0.65,162,0.38,98.06,42794.625,No upcoming events found.,No upcoming events found.,No news found.
+GODREJCP,Godrej Consumer Products Ltd.,Fast Moving Consumer Goods,1027.8,991,2026-05-12,-8.0,PE,900.0,0.32,162,0.34,98.44,48272.0,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1430.0,0.46,161,0.75,98.15,21711.35,No upcoming events found.,No upcoming events found.,No news found.
+HYUNDAI,Hyundai Motor India Ltd.,Automobile and Auto Components,1779.0,1708,2026-05-08,-12.0,CE,2200.0,0.59,161,0.54,99.3,29971.5375,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1400.0,0.46,161,0.65,98.93,24927.35,No upcoming events found.,No upcoming events found.,No news found.
+TITAN,Titan Company Ltd.,Consumer Durables,4164.5,4239,2026-05-08,-12.0,PE,3500.0,0.93,161,0.28,98.86,57081.1625,No upcoming events found.,No upcoming events found.,No news found.
+HINDUNILVR,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,2272.6,2092,2026-04-30,-20.0,CE,2680.0,0.54,161,0.35,99.3,46511.1,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1210.0,0.21,159,0.54,99.45,29527.25,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1190.0,0.21,159,0.49,99.41,32466.75,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1200.0,0.21,159,0.52,99.55,30906.75,No upcoming events found.,No upcoming events found.,No news found.
+DMART,Avenue Supermarts Ltd.,Consumer Services,4235.2,4543,2026-05-02,-18.0,PE,3700.0,1.06,159,0.28,98.84,56845.175,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1220.0,0.21,159,0.56,99.47,28394.25,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1240.0,0.21,159,0.41,99.6,39073.875,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1260.0,0.21,159,0.42,99.42,38083.875,No upcoming events found.,No upcoming events found.,No news found.
+IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,135.1,145,2026-05-18,-2.0,CE,172.0,0.03,158,0.4,99.57,39926.621875,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,759,2026-04-18,-32.0,PE,630.0,0.29,158,0.53,98.55,30032.0125,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1640.0,0.31,156,0.42,99.42,37408.25,No upcoming events found.,No upcoming events found.,No news found.
+HINDUNILVR,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,2272.6,2092,2026-04-30,-20.0,CE,2600.0,0.51,153,0.28,99.09,55046.1,No upcoming events found.,No upcoming events found.,No news found.
+ETERNAL,Eternal Ltd.,Consumer Services,245.88,217,2026-04-28,-22.0,PE,190.0,0.06,151,0.25,99.24,59483.075,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,455,2026-04-27,-23.0,PE,400.0,0.11,151,0.28,98.29,54504.725,No upcoming events found.,No upcoming events found.,No news found.
+TATASTEEL,Tata Steel Ltd.,Metals & Mining,211.13,188,2026-05-15,-5.0,PE,170.0,0.06,151,0.33,99.07,45842.0875,No upcoming events found.,No upcoming events found.,No news found.
+COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,456.75,455,2026-04-27,-23.0,PE,390.0,0.11,151,0.31,99.1,49644.725,No upcoming events found.,No upcoming events found.,No news found.
+UNITDSPR,United Spirits Ltd.,Fast Moving Consumer Goods,1324.5,1212,2026-05-14,-6.0,PE,1160.0,0.38,150,0.31,98.39,48779.8,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1450.0,0.43,148,0.75,99.34,19849.35,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,15200.0,2.98,148,0.3,99.41,49699.5,No upcoming events found.,No upcoming events found.,No news found.
+HDFCAMC,HDFC Asset Management Company Ltd.,Financial Services,2643.1,2398,2026-04-16,-34.0,CE,3180.0,0.49,146,0.22,99.53,65438.55,No upcoming events found.,No upcoming events found.,No news found.
+PFC,Power Finance Corporation Ltd.,Financial Services,430.8,418,2026-05-13,-7.0,CE,540.0,0.11,146,0.35,99.41,42370.9,No upcoming events found.,No upcoming events found.,No news found.
+TRENT,Trent Ltd.,Consumer Services,4076.0,3822,2026-04-22,-28.0,PE,3000.0,1.46,146,0.44,98.66,32889.05,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1292,2026-04-23,-27.0,PE,980.0,0.36,145,0.37,98.69,39451.0,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1390,2026-04-24,-26.0,PE,1050.0,0.41,144,0.33,97.46,43679.85,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJFINSV,Bajaj Finserv Ltd.,Financial Services,1762.6,1662,2026-04-30,-20.0,PE,1560.0,0.58,143,0.34,98.21,42082.625,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,15300.0,2.86,143,0.3,99.16,47807.5,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,289,2026-05-14,-6.0,PE,250.0,0.17,140,0.92,99.46,15168.2,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJFINSV,Bajaj Finserv Ltd.,Financial Services,1762.6,1662,2026-04-30,-20.0,PE,1520.0,0.56,140,0.37,98.87,38380.125,No upcoming events found.,No upcoming events found.,No news found.
+DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,1333.6,1211,2026-05-12,-8.0,PE,1070.0,0.23,140,0.26,99.41,54470.25,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3030,2026-05-05,-15.0,CE,3760.0,0.69,137,0.31,99.35,43693.9,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10943,2026-04-27,-23.0,PE,10000.0,2.74,136,0.27,98.52,50346.25,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10963,2026-04-27,-23.0,CE,13600.0,2.74,136,0.32,99.23,42481.25,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10943,2026-04-27,-23.0,PE,9500.0,2.7,135,0.32,98.96,41578.75,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10943,2026-04-27,-23.0,PE,9400.0,2.7,135,0.34,99.09,39820.75,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5542,2026-05-07,-13.0,CE,6500.0,1.07,134,0.32,99.48,41921.4375,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJFINSV,Bajaj Finserv Ltd.,Financial Services,1762.6,1678,2026-04-30,-20.0,CE,2040.0,0.54,134,0.4,98.24,34012.125,No upcoming events found.,No upcoming events found.,No news found.
+SBILIFE,SBI Life Insurance Company Ltd.,Financial Services,1883.0,1829,2026-04-22,-28.0,PE,1640.0,0.35,131,0.2,98.91,64798.25,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10943,2026-04-27,-23.0,PE,10200.0,2.62,131,0.24,98.31,53850.75,No upcoming events found.,No upcoming events found.,No news found.
+HINDUNILVR,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,2272.6,2092,2026-04-30,-20.0,CE,2640.0,0.44,131,0.26,99.32,50780.1,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,289,2026-05-14,-6.0,PE,290.0,0.16,129,0.49,98.34,26384.2,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,661,2026-04-29,-21.0,PE,230.0,0.11,129,0.5,98.98,26007.25,No upcoming events found.,No upcoming events found.,No news found.
+VEDL,Vedanta Ltd.,Metals & Mining,331.8,661,2026-04-29,-21.0,PE,220.0,0.11,129,0.45,99.03,28678.625,No upcoming events found.,No upcoming events found.,No news found.
+TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,362.05,289,2026-05-14,-6.0,PE,280.0,0.16,129,0.55,98.88,23464.2,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1292,2026-04-23,-27.0,PE,940.0,0.32,129,0.39,99.14,33699.0,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1430.0,0.32,129,0.56,99.19,23303.0,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1420.0,0.32,129,0.53,99.28,24403.0,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12702,2026-04-28,-22.0,CE,15600.0,2.56,128,0.3,99.43,42785.5,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10963,2026-04-27,-23.0,CE,13400.0,2.54,126,0.28,99.12,45979.25,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1480.0,0.36,126,0.72,99.39,17542.35,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1500.0,0.36,126,0.54,99.42,23470.275,No upcoming events found.,No upcoming events found.,No news found.
+KOTAKBANK,Kotak Mahindra Bank Ltd.,Financial Services,388.6,367,2026-05-02,-18.0,CE,440.0,0.06,125,0.17,99.36,71986.0,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,940.0,0.23,123,0.51,99.43,24279.0125,No upcoming events found.,No upcoming events found.,No news found.
+HDFCLIFE,HDFC Life Insurance Company Ltd.,Financial Services,611.7,569,2026-04-16,-34.0,PE,520.0,0.11,123,0.22,99.0,56686.575,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1560.0,0.34,118,0.55,99.56,21572.275,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,920.0,0.21,116,0.42,99.26,28012.5125,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10943,2026-04-27,-23.0,PE,9200.0,2.3,115,0.32,99.11,36333.75,No upcoming events found.,No upcoming events found.,No news found.
+M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3095.8,3011,2026-05-05,-15.0,PE,2560.0,0.57,114,0.21,99.08,53627.9,No upcoming events found.,No upcoming events found.,No news found.
+CIPLA,Cipla Ltd.,Healthcare,1419.0,1192,2026-05-13,-7.0,PE,1100.0,0.3,112,0.39,99.59,29009.125,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1450.0,0.28,110,0.52,99.45,21335.0,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1460.0,0.28,110,0.54,99.47,20559.0,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1480.0,0.28,110,0.58,99.5,19035.0,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1390,2026-04-24,-26.0,PE,1040.0,0.31,109,0.26,98.03,42388.85,No upcoming events found.,No upcoming events found.,No news found.
+RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1338.7,1311,2026-04-24,-26.0,CE,1680.0,0.21,106,0.34,99.65,31593.25,No upcoming events found.,No upcoming events found.,No news found.
+LODHA,Lodha Developers Ltd.,Realty,880.3,692,2026-04-24,-26.0,PE,600.0,0.24,106,0.29,99.31,37364.84375,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10943,2026-04-27,-23.0,PE,9000.0,2.14,106,0.33,99.16,32856.25,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10963,2026-04-27,-23.0,CE,13800.0,2.11,105,0.27,99.45,39028.25,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1440.0,0.26,105,0.47,99.44,22379.0,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,4320.0,0.57,100,0.29,99.59,34265.8125,No upcoming events found.,No upcoming events found.,No news found.
+CIPLA,Cipla Ltd.,Healthcare,1419.0,1192,2026-05-13,-7.0,PE,1200.0,0.26,98,0.23,99.07,42118.625,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1390,2026-04-24,-26.0,PE,1020.0,0.26,91,0.23,98.45,39750.35,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,1000.0,0.16,89,0.38,99.63,23767.76875,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1500.0,0.21,85,0.33,99.53,25940.5,No upcoming events found.,No upcoming events found.,No news found.
+INFY,Infosys Ltd.,Information Technology,1189.0,1313,2026-04-23,-27.0,CE,1520.0,0.21,85,0.34,99.55,25236.5,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1280.0,0.11,84,0.23,99.74,37476.875,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJFINSV,Bajaj Finserv Ltd.,Financial Services,1762.6,1678,2026-04-30,-20.0,CE,1960.0,0.34,84,0.21,99.0,41014.625,No upcoming events found.,No upcoming events found.,No news found.
+SBIN,State Bank of India,Financial Services,947.4,1044,2026-05-15,-5.0,CE,1300.0,0.11,84,0.23,99.76,37228.875,No upcoming events found.,No upcoming events found.,No news found.
+ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,11471.0,10963,2026-04-27,-23.0,CE,14000.0,1.57,78,0.22,99.61,35607.75,No upcoming events found.,No upcoming events found.,No news found.
+TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,3239.7,3500,2026-05-13,-7.0,CE,4280.0,0.44,76,0.22,99.72,35472.3125,No upcoming events found.,No upcoming events found.,No news found.
+MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,12989.0,12675,2026-04-28,-22.0,PE,11000.0,1.54,76,0.15,99.37,52063.5,No upcoming events found.,No upcoming events found.,No news found.
+HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,634.2,512,2026-04-30,-20.0,PE,400.0,0.06,76,0.12,99.69,61368.15625,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1411,2026-04-24,-26.0,CE,1600.0,0.21,74,0.35,99.66,21216.275,No upcoming events found.,No upcoming events found.,No news found.
+HCLTECH,HCL Technologies Ltd.,Information Technology,1181.2,1390,2026-04-24,-26.0,PE,1000.0,0.21,74,0.2,99.03,37401.85,No upcoming events found.,No upcoming events found.,No news found.
+SHREECEM,Shree Cement Ltd.,Construction Materials,24490.0,23702,2026-05-06,-14.0,CE,29000.0,2.73,68,0.16,99.7,43044.625,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,950.0,0.11,61,0.28,99.54,22475.0125,No upcoming events found.,No upcoming events found.,No news found.
+HDFCBANK,HDFC Bank Ltd.,Financial Services,766.7,775,2026-04-18,-32.0,CE,960.0,0.11,61,0.3,99.62,20852.0125,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJFINSV,Bajaj Finserv Ltd.,Financial Services,1762.6,1678,2026-04-30,-20.0,CE,2000.0,0.23,56,0.15,99.02,37557.625,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5542,2026-05-07,-13.0,CE,6700.0,0.44,54,0.16,99.8,33865.9375,No upcoming events found.,No upcoming events found.,No news found.
+BAJFINANCE,Bajaj Finance Ltd.,Financial Services,925.95,839,2026-04-29,-21.0,PE,750.0,0.06,46,0.09,99.65,55064.375,No upcoming events found.,No upcoming events found.,No news found.
+BAJAJFINSV,Bajaj Finserv Ltd.,Financial Services,1762.6,1678,2026-04-30,-20.0,CE,2080.0,0.16,40,0.13,99.68,30557.125,No upcoming events found.,No upcoming events found.,No news found.
+BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,5450.5,5542,2026-05-07,-13.0,CE,6600.0,0.29,35,0.1,99.86,37696.9375,No upcoming events found.,No upcoming events found.,No news found.

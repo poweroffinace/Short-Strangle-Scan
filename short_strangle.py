@@ -14,7 +14,7 @@ from optionlab import run_strategy
 # ----------------------------
 # CONFIG
 # ----------------------------
-EXPIRY = '26-05-2026'
+EXPIRY = '30-06-2026'
 DAYS_TO_EXPIRY = (pd.to_datetime(EXPIRY, format='%d-%m-%Y') - pd.Timestamp.today()).days
 
 # ----------------------------

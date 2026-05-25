@@ -561,8 +561,11 @@ def generate_short_strangle_csv():
                 if FUTURES_PRICE * 0.90 < strike_price < FUTURES_PRICE * 1.10:
                   continue
 
-                call_premium = (row['CALLS_Ask_Price'] - row['CALLS_Bid_Price']) * 0.25 + row['CALLS_Ask_Price']
-                put_premium  = (row['PUTS_Ask_Price'] - row['PUTS_Bid_Price']) * 0.25 + row['PUTS_Ask_Price']
+                # call_premium = (row['CALLS_Ask_Price'] - row['CALLS_Bid_Price']) * 0.01 + row['CALLS_Ask_Price']
+                # put_premium  = (row['PUTS_Ask_Price'] - row['PUTS_Bid_Price']) * 0.01 + row['PUTS_Ask_Price']
+
+                call_premium = row['CALLS_Ask_Price']
+                put_premium  = row['PUTS_Ask_Price']
 
                 if call_premium <= 0: skip_call = True
                 if put_premium <= 0: skip_put = True

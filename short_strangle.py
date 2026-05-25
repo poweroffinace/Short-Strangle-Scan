@@ -392,31 +392,48 @@ def get_pop(stock_price, option_type, strike_price, premium, lot_size, volatilit
 # MARGIN CALCULATION
 # ----------------------------
 def get_margin_req(symbol, strike_price, expiry_date, option_type, lot_size):
-    expiry_date = datetime.datetime.strptime(expiry_date, "%d-%m-%Y").strftime("%d%b").upper()
-    option_type = option_type.upper()
-    post_url = "https://zerodha.com/margin-calculator/SPAN"
+    strike_price = int(strike_price)
+    lot_size = int(lot_size)
 
-    import math
+    # Fix: format should be YY+MMM (e.g., "26JUN"), not DD+MMM
+    dt = datetime.datetime.strptime(expiry_date, "%d-%m-%Y")
+    expiry_formatted = dt.strftime("%y%b").upper()  # "26JUN"
+
+    option_type = option_type.upper()
+    post_url = "https://zerodha.com/margin-calculator/SPAN/"
+
     if math.ceil(strike_price) == math.floor(strike_price):
-        strike_price = str(int(strike_price))
+        strike_price_str = str(int(strike_price))
     else:
-      strike_price = str(strike_price)
-      
+        strike_price_str = str(strike_price)
 
     payload = {
         "action": "calculate",
         "exchange[]": "NFO",
         "product[]": "OPT",
-        "scrip[]": f"{symbol}{expiry_date}",
+        "scrip[]": f"{symbol}{expiry_formatted}",  # e.g., "ADANIENT26JUN"
         "option_type[]": option_type,
-        "strike_price[]": str(strike_price),
+        "strike_price[]": strike_price_str,
         "qty[]": str(lot_size),
         "trade[]": "sell"
     }
-    # print(payload)
-    response = requests.post(post_url, data=payload)
-    # print(response.json())
-    return max(response.json().get('last', {}).get('total', -1), response.json().get('total', {}).get('total', -1))
+
+    headers = {
+        "Referer": "https://zerodha.com/margin-calculator/SPAN/",
+        "X-Requested-With": "XMLHttpRequest",
+        "Content-Type": "application/x-www-form-urlencoded",
+    }
+
+    # print("Payload:", payload)
+    response = requests.post(post_url, data=payload, headers=headers)
+    # print("Response:", response.json())
+
+    data = response.json()
+    total = max(
+        data.get('last', {}).get('total', -1),
+        data.get('total', {}).get('total', -1)
+    )
+    return total
 
 
 # ----------------------------
@@ -451,6 +468,9 @@ def generate_short_strangle_csv():
     for idx, row in stock_universe.iterrows():
 
         SYMBOL = row['Symbol']
+        if 'adani' in SYMBOL.lower():
+            print(f"{SYMBOL} is a Adani item, thus skipping...")
+            
         company_name = row['Company Name']
         industry = row['Industry']
 
